@@ -53,7 +53,7 @@ tutorials.
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
-   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here]
+   above installed on your Computer. If you have issues doing so, refer to the troubleshooting guide [here]
    (https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
    .
 
@@ -61,7 +61,7 @@ tutorials.
 
 1. Copy the file to the folder you want to use as the _home folder_ for your SETA.
 
-1. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds. Note how the app
+1. Double-click the file to start the app. The GUI similar to the one below should appear in a few seconds. Note how the app
    contains some sample data.<br>
    ![Ui](images/Ui.png)
 
@@ -70,14 +70,14 @@ tutorials.
 
 Some example commands you can try:
 
-* **`addstu`**`n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com` : Adds a student named `John Lim Jun Jie` to the
+* **`addstu`**`n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`: Adds a student named `John Lim Jun Jie` to the
   student list.
 
-* **`deletestu`**`3` : Deletes the 3rd student shown in the current list.
+* **`deletestu`**`3`: Deletes the 3rd student shown in the current list.
 
-* **`exit`** : Exits the app.
+* **`exit`**: Exits the app.
 
-Refer to the [Features](#features) below for details of each command.
+You can refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -89,13 +89,12 @@ SETA contains features that allow you to manage 3 things:
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
 
------->>>>**insert why they need to do what here!!**
 
 <div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format:**<br>
 
-* Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
+* Words in `UPPER_CASE` are the parameters to be supplied by you.<br>
   e.g. in `addstu n/NAME`, `NAME` is a parameter which can be used as `addstu n/John Lim`.
 
 * Items in square brackets are optional.<br>
@@ -449,6 +448,7 @@ If your changes to the data file makes its format invalid, SETA will discard all
 --------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
+You can find answers to frequently asked questions here.
 
 <details><summary>General</summary>
 <p>
