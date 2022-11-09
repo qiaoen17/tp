@@ -2,7 +2,7 @@ title: "SETA"
 theme: minima
 
 header_pages:
-  - UserGuideCS2101.md
+  - UserGuide.md
   - DeveloperGuide.md
   - AboutUs.md
 
