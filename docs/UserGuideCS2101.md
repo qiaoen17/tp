@@ -502,6 +502,8 @@ the data of your previous SETA home folder.
 
 ## Command Summary
 
+This command summary gives you an overview of all the commands available in SETA.
+
 | Action         | Format, Examples                           |
 |----------------|--------------------------------------------|
 | **Add**        | `addstu`, `addq`, `addtut`                 |
