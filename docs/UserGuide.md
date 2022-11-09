@@ -25,30 +25,33 @@ tutorials.
 </div>
 
 
-* Table of Contents
-    * **[Quick Start](#quick-start)**
-    * **[Features](#features)**
-        * **[Students](#students)**
-            * Adding a student: [`addstu`](#adding-a-student--addstu)
-            * Editing a student: [`editstu`](#editing-a-student-editstu)
-            * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
-            * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
-            * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
-            * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
-            * Finding a student: [`findstu`](#finding-a-student-findstu)
-            * Listing all students: [`liststu`](#listing-all-students-liststu)
-        * **[Questions](#questions)**
-            * Adding a question: [`addq`](#adding-a-question--addq)
-            * Marking a question: [`markq`](#marking-a-question--markq)
-            * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
-            * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
-        * **[Tutorials](#tutorials)**
-            * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
-            * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
-            * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-        * **Exiting the program**: [`exit`](#exiting-the-program--exit)
-    * **[FAQ](#faq)**
-    * **[Command Summary](#command-summary)**
+## Table of Contents
+* **[Quick Start](#quick-start)**
+* **[Features](#features)**
+    * **[Students](#students)**
+        * Adding a student: [`addstu`](#adding-a-student--addstu)
+        * Editing a student: [`editstu`](#editing-a-student-editstu)
+        * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
+        * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
+        * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
+        * Removing help tag from a student: [`unhelpstu`](#removing-help-tag-unhelpstu)
+        * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
+        * Finding a student: [`findstu`](#finding-a-student-findstu)
+        * Listing all students: [`liststu`](#listing-all-students-liststu)
+    * **[Questions](#questions)**
+        * Adding a question: [`addq`](#adding-a-question--addq)
+        * Marking a question: [`markq`](#marking-a-question--markq)
+        * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
+        * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
+    * **[Tutorials](#tutorials)**
+        * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
+        * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
+        * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
+        * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
+    * **Clear**: [`clear`](#clearing-all-entries-clear)
+    * **Exiting the program**: [`exit`](#exiting-the-program--exit)
+* **[FAQ](#faq)**
+* **[Command Summary](#command-summary)**
 
 
 --------------------------------------------------------------------------------------------------------------------
@@ -121,9 +124,8 @@ he or she has sent on Zoom) to record their participation.
 
 ### Adding a student : `addstu`
 
-Adds a student to the student list.
-At the start of the semester, after gathering the student details, you can add each student into SETA to start
-tracking their participation.
+The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
+and email, and the format is as shown below.
 
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -160,11 +162,9 @@ or changes made to the student's details. The format for this command is as show
 
 * The student at the specified `INDEX` will be edited. (E.g. If you input '3' as the `INDEX`, student 3 will be edited)
 * At least one of the fields (E.g. [n/NAME] or [e/EMAIL]) must be provided.
-
 * Existing fields will be updated to the input values.
 * Editing a student with the same details as the student's original details will be accepted.
   (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an edit.)
-* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '0000' and '3' instead of '003').
 
 <div markdown="block" class="alert alert-info">
 
@@ -182,6 +182,7 @@ or changes made to the student's details. The format for this command is as show
     * Email must end with a top-level domain (E.g. `.com`, `.u.nus.edu`)
 * Attendance constraints
     * Attendance number should be a positive integer (E.g. 1, 2,...)
+    * Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '0000' and '3' instead of '003').
 
 </div>
 
@@ -485,9 +486,6 @@ the data of your previous SETA home folder.
 <details><summary>Questions</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
-the data of your previous SETA home folder.
 
 </p>
 </details>
@@ -495,9 +493,6 @@ the data of your previous SETA home folder.
 <details><summary>Tutorials</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
-the data of your previous SETA home folder.
 
 </p>
 </details>
