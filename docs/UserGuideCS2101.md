@@ -5,7 +5,7 @@ questions asked by students. SETA is optimized for use via a Command Line Interf
 benefits of a Graphical User Interface (GUI). If you can type fast, SETA enables you to track your students, manage your
 tutorials and note down questions more effectively than traditional GUI apps.
 
-The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your 
+The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
 Icons are used throughout this guide and the table below shows their meaning:  
@@ -20,9 +20,9 @@ Icons are used throughout this guide and the table below shows their meaning:
 
 **:information_source: What is a Command Line Interface (CLI)?**<br>
 
-It is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all 
-you have to do is to type in the command box (red rectangle in the image below) and press enter to track your students 
-and manage your questions and 
+It is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all
+you have to do is to type in the command box (red rectangle in the image below) and press enter to track your students
+and manage your questions and
 tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
@@ -50,6 +50,7 @@ tutorials.
             * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
             * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
             * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
+            * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
         * **Exiting the program**: [`exit`](#exiting-the-program--exit)
     * **[FAQ](#faq)**
     * **[Command Summary](#command-summary)**
@@ -58,9 +59,10 @@ tutorials.
 
 ## Quick Start
 
-1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or 
+1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
    above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here]
-   (https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
+   (https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
+   .
 
 1. Download the latest `SETA.jar` from [here](https://github.com/AY2223S1-CS2103T-T08-4/tp/releases).
 
@@ -89,6 +91,7 @@ Refer to the [Features](#features) below for details of each command.
 ## Features
 
 SETA contains features that allow you to manage 3 things:
+
 1. [Students](#students)
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
@@ -118,14 +121,15 @@ SETA contains features that allow you to manage 3 things:
 </div>
 
 ### Students
-Each student contains details such as their name, telegram handle and email. The latter two are there for you to 
-contact the student if necessary. You can also track each student's attendance and include the number of messages 
+
+Each student contains details such as their name, telegram handle and email. The latter two are there for you to
+contact the student if necessary. You can also track each student's attendance and include the number of messages
 he has sent on Zoom to note down his participation.
 
 ### Adding a student : `addstu`
 
 Adds a student to the student list.
-At the start of the semester, after gathering the student details, you can add each student into SETA to start 
+At the start of the semester, after gathering the student details, you can add each student into SETA to start
 tracking their participation.
 
 Format: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -151,8 +155,10 @@ Format: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
 * At least one of the fields (E.g. [n/NAME] or [e/EMAIL]) must be provided.
 * Existing fields will be updated to the input values.
 * Editing a student with the same details as the student's original details will be accepted.
-  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an edit.)
-* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '0000' and '3' instead of '003').
+  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
+  edit.)
+* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '
+  0000' and '3' instead of '003').
 
 Examples:
 
@@ -202,7 +208,7 @@ Example:
 ### Adding help tag: `helpstu`
 
 Adds a help tag to an existing student.
-This feature helps you to visually see which student specifically needs help. 
+This feature helps you to visually see which student specifically needs help.
 
 Format: `helpstu INDEX`
 
@@ -217,7 +223,7 @@ Example:
 ### Deleting a student: `deletestu`
 
 Removes a specific student.
-If a student has left the module or swapped tutorial group, you can delete him from the list. 
+If a student has left the module or swapped tutorial group, you can delete him from the list.
 
 Format: `deletestu INDEX`
 
@@ -232,7 +238,7 @@ Example:
 ### Finding a student: `findstu`
 
 Finds one or more specific students.
-As the student list can potentially contain more than 40 students, this feature helps you to specifically find the 
+As the student list can potentially contain more than 40 students, this feature helps you to specifically find the
 student based on the student's name.
 
 Format: `findstu KEYWORD [MORE_KEYWORDS]`
@@ -248,7 +254,7 @@ Examples:
 ### Listing all students: `liststu`
 
 Lists all students in the student list.
-After the above feature(`findstu`) is used, you may want to view all the students that you have again. This feature 
+After the above feature(`findstu`) is used, you may want to view all the students that you have again. This feature
 helps you to do so.
 
 Format: `liststu`
@@ -258,10 +264,11 @@ Example:
 * `liststu`
 
 ### Questions
-Sometimes, you may receive questions that you may not have the answer to or you may not have enough time to answer 
-all of them during the tutorial. SETA allows you to track these questions. Furthermore, if you find a question that 
-requires urgent clarification or critical thinking, you can indicate on the user interface that these questions are 
-important. For questions requiring critical thinking, it would be also good to share them with other TAs so that the 
+
+Sometimes, you may receive questions that you may not have the answer to or you may not have enough time to answer
+all of them during the tutorial. SETA allows you to track these questions. Furthermore, if you find a question that
+requires urgent clarification or critical thinking, you can indicate on the user interface that these questions are
+important. For questions requiring critical thinking, it would be also good to share them with other TAs so that the
 rest of the module's students can benefit from knowing this question.
 
 ### Adding a question : `addq`
@@ -278,7 +285,7 @@ Example:
 ### Marking a question : `markq`
 
 Marks a question as important.
-This feature enables you to indicate on the user interface that this question is important and requires more 
+This feature enables you to indicate on the user interface that this question is important and requires more
 attention compared to the other questions.
 
 Format: `markq INDEX`
@@ -326,9 +333,9 @@ Example:
 * `deleteq 1` deletes the first question from the question list
 
 ### Tutorials
-Each tutorial has a group number, a topic to focus on and a date and time. These correspond to the `GROUP_NUMBER`, 
-`CONTENT` and `DATE TIME` parameters accordingly.
 
+Each tutorial has a group number, a topic to focus on and a date and time. These correspond to the `GROUP_NUMBER`,
+`CONTENT` and `DATE TIME` parameters accordingly.
 
 ### Adding a tutorial : `addtut`
 
@@ -447,4 +454,5 @@ the data of your previous SETA home folder. <br>
 | **Tag**        | `helpstu`                                  |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
+
 
