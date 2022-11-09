@@ -8,6 +8,14 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your 
 needs as a CS2103T TA.
 
+Icons are used throughout this guide and the table below shows their meaning:  
+
+| Icon                | Meaning                |
+|---------------------|------------------------|
+| :information_source | Additional Information |
+| :exclaimation:      | Be careful             |
+
+
 <div markdown="block" class="alert alert-info">
 
 **:information_source: What is a Command Line Interface (CLI)?**<br>
@@ -170,9 +178,9 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-Edits the number of messages a specified student sent during tutorial.
-This feature helps you to track how much the student has been actively participating in the tutorial through the 
-number of messages sent by him.
+You can edit the message count of a specified student through this command.  
+This feature helps you to track your student's participation in the tutorial through the 
+recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -188,6 +196,8 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 Example:
 
 * `addresponse 1 m/7`
+
+<img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1100">
 
 ### Adding help tag: `helpstu`
 
@@ -350,8 +360,8 @@ Example:
 
 ### Marking a tutorial: `marktut`
 
-Marks the tutorial and its content as done.
-When the tutorial is over, you can indicate on the user interface that it is done.
+This command helps you mark the tutorial as complete.  
+When the tutorial is over, you can use this command to mark the tutorial as complete.
 
 Format: `marktut INDEX`
 
@@ -363,9 +373,11 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 
+<img src="images/ug-screenshots/marktut.png" alt="marktut 1" width="1100">
+
 ### Unmarking a tutorial: `unmarktut`
 
-Marks content in the tutorial as undone.
+This command helps you mark the tutorial as incomplete.  
 If a tutorial was mistakenly marked as done, you can undo it using this feature.
 
 Format: `unmarktut INDEX`
@@ -376,14 +388,18 @@ Format: `unmarktut INDEX`
 
 Example:
 
-* `unmarktut 1` marks the first tutorial from the tutorial list as undone.
+* `unmarktut 1` marks the first tutorial from the list of tutorials as incomplete.
+
+<img src="images/ug-screenshots/unmarktut.png" alt="unmarktut 1" width="1100">
 
 ### Clearing data in SETA : `clear`
 
-Clears the data in SETA. This is used when you just started using SETA (to clear the sample data given) or when you 
+Clears the data in SETA. Use this to clear the sample data given at the beginning or when you 
 want to start adding students, questions and tutorials from scratch again.
 
-Format: `clear `
+Format: `clear`
+
+<img src="images/ug-screenshots/clear.png" alt="clear" width="1100">
 
 ### Exiting the SETA : `exit`
 
@@ -412,8 +428,9 @@ If your changes to the data file makes its format invalid, SETA will discard all
 
 **Q**: How do I transfer my data to another Computer?<br>
 **A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
-the data of your previous SETA home folder.
-
+the data of your previous SETA home folder. <br>
+**Q**: The sample data is not showing, what do I do? <br>
+**A**: Delete all files in `[JAR file location]/data` and restart the application. 
 --------------------------------------------------------------------------------------------------------------------
 
 ## Command Summary
