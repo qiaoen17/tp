@@ -170,9 +170,10 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-Edits the number of messages a specified student sent during tutorial.
-This feature helps you to track how much the student has been actively participating in the tutorial through the 
-number of messages sent by him.
+You can edit the message count of a specified student through this command.  
+This feature helps you to track your student's participation in the tutorial through the 
+recording number of messages sent by him/her.
+
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -380,7 +381,7 @@ Example:
 
 ### Clearing data in SETA : `clear`
 
-Clears the data in SETA. This is used when you just started using SETA (to clear the sample data given) or when you 
+Clears the data in SETA. Use this to clear the sample data given at the beginning or when you
 want to start adding students, questions and tutorials from scratch again.
 
 Format: `clear `
