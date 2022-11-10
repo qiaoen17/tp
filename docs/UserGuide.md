@@ -57,6 +57,7 @@ The following table will tell you the purpose of the icons used in this User Gui
     * **Exiting the program**: [`exit`](#exiting-seta--exit)
     * **[FAQ](#faq)**
     * **[Command Summary](#command-summary)**
+    * **[Glossary](#glossary)**
 
 
 --------------------------------------------------------------------------------------------------------------------
@@ -475,6 +476,8 @@ Format: `clear `
 This feature allows you to exit SETA.
 
 Format: `exit`
+
+<img src="images/ug-screenshots/exit.png" width="1100">
 
 ### Saving the data
 
