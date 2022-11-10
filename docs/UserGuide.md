@@ -99,7 +99,7 @@ SETA contains features that allow you to manage 3 things:
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-success">
 
 **:information_source: Notes about the command format:**<br>
 
@@ -140,7 +140,7 @@ tracking their participation.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-success">
 
 **:information_source: Command Constraints**<br>
 
@@ -181,7 +181,7 @@ or changes made to the student's details. The format for this command is as show
 * Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '
   0000' and '3' instead of '003').
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-success">
 
 **:information_source: Command Constraints**<br>
 
@@ -241,7 +241,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
     `response: 000000000`
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-success">
 
 **:information_source: Command Constraints**<br>
 * The `MESSAGE_COUNT` must be a positive integer 1, 2, 3, ...
