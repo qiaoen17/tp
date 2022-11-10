@@ -138,7 +138,7 @@ he or she has sent on Zoom) to record their participation.
 
 ### Adding a student : `addstu`
 
-The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
+This feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
 and email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -168,7 +168,7 @@ and email.
 
 ### Editing a student: `editstu`
 
-The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
+This feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
 or changes made to the student's details.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
