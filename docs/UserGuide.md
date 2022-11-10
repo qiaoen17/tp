@@ -3,13 +3,15 @@ layout: page
 title: User Guide
 ---
 
-SETA is a **desktop application for CS2103T Teaching Assistants** to track their students’ and tutorials’ details, and
+SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
 questions asked by students. SETA is optimized for use via a Command Line Interface (CLI) while still having the
 benefits of a Graphical User Interface (GUI). If you can type fast, SETA enables you to track your students, manage your
 tutorials and note down questions more effectively than traditional GUI apps.
 
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
+
+In this guide, the :information_source: icon will provide you with useful information while using the application.
 
 <div markdown="block" class="alert alert-info">
 
@@ -56,8 +58,7 @@ tutorials.
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
-   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here]
-   (https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
+   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
 
 2. Download the latest `SETA.jar` from [here](https://github.com/AY2223S1-CS2103T-T08-4/tp/releases).
 
@@ -197,8 +198,9 @@ or changes made to the student's details. The format for this command is as show
 
 ### Adding student's attendance : `attendance`
 
-Increases student's attendance by 1.
-Over the course of the semester, after each tutorial, you can update the students' attendance.
+Increases student's attendance by 1. You can enter this command after each tutorial for students who attended that
+particular tutorial. At the end of the semester, you can have an overview of all the students' attendance for grading
+purposes (participation marks).
 
 Format: `attendance INDEX`
 
@@ -209,6 +211,10 @@ Format: `attendance INDEX`
 Example:
 
 * `attendance 1`
+  * Before
+    <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
+  * After
+  <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
 
 ### Adding student's response: `addresponse`
 
@@ -234,8 +240,9 @@ Example:
 
 ### Adding help tag: `helpstu`
 
-Adds a help tag to an existing student.
-This feature helps you to visually see which student specifically needs help.
+Adds a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
+ needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
+ who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
 
@@ -245,7 +252,28 @@ Format: `helpstu INDEX`
 
 Example:
 
-* `helpstu 2`
+* `helpstu 1`
+
+<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="1100">
+
+### Removing help tag: `unhelpstu`
+
+Removes help tag from an existing student. You can enter this command when you find a specific student that you thought
+ needed help is doing well or does not need special attention anymore.
+
+Format: `unhelpstu INDEX`
+
+* Removes a help tag from the student at the specified INDEX.
+* The index refers to the index number shown in the displayed student list.
+* The index must be a positive integer 1, 2. 3, ….
+
+Example:
+
+* `unhelpstu 1`
+* Before
+ <img src="images/ug-screenshots/unhelpstu_before.png" alt="unhelpstu 1" width="1100">
+* After
+<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
 
@@ -261,6 +289,10 @@ Format: `deletestu INDEX`
 Example:
 
 * `deletestu 2`
+* Before
+  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1100">
+* After
+<img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
 
 ### Finding a student: `findstu`
 
@@ -464,6 +496,9 @@ the data of your previous SETA home folder.
 **Q**: What does the cross button at the top right hand of the application do?<br>
 **A**: You can simply click on that button to exit the application!
 
+**Q**: What is the difference between using the `exit` command and the cross button at the top right hand of the application?<br>
+**A**: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
+
 **Q**: What does the question mark at the top left hand of the application do?<br>
 **A**: You can simply click on that button to view the link to our User Guide if you face any issues when using our application!
 </p>
@@ -485,9 +520,8 @@ the data of your previous SETA home folder.
 <details><summary>Questions</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
-the data of your previous SETA home folder.
+**Q**: to be added <br>
+**A**: to be added
 
 </p>
 </details>
@@ -495,9 +529,10 @@ the data of your previous SETA home folder.
 <details><summary>Tutorials</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
-the data of your previous SETA home folder.
+**Q**: Can I type the date and time in a different format? <br>
+**A**: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`. 
+However, there will be improvements made in the near future so that SETA can take in other date and time formats to better serve you.
+ Please look forward to it!
 
 </p>
 </details>
@@ -517,7 +552,6 @@ This command summary gives you an overview of all the commands available in SETA
 | **Find**       | `findstu`                                  |
 | **List**       | `liststu`                                  |
 | **Mark**       | `markq`, `unmarkq`, `marktut`, `unmarktut` |
-| **Tag**        | `helpstu`                                  |
+| **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
-
