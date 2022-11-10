@@ -13,13 +13,13 @@ needs as a CS2103T TA.
 
 The following table will inform you what kind of information comes with each of these icons.
 
-| Icon                  | Purpose                             |
-|----------------|--------------------------------------------|
-| :information_source:  | Additional useful explanation given |
-| :exclamation:         | Important word of caution           |
+| Icon                 | Purpose                             |
+|----------------------|-------------------------------------|
+| :information_source: | Additional useful explanation given |
+| :exclamation:        | Important word of caution           |
 
 
-<div markdown="block" class="alert alert-info">
+<div markdown="block" class="alert alert-orange">
 
 **:information_source: What is a Command Line Interface (CLI)?**<br>
 
