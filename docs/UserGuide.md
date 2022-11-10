@@ -124,6 +124,7 @@ SETA contains features that allow you to manage 3 things:
 * `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
 the number of items in its respective list e.g. for `markq`, `INDEX` must be less than number of questions in question list.
 
+* `INDEX` refers to the index number shown in the respective displayed list.
 
 </div>
 
@@ -137,7 +138,7 @@ he or she has sent on Zoom) to record their participation.
 
 ### Adding a student : `addstu`
 
-The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
+This feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
 and email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -167,7 +168,7 @@ and email.
 
 ### Editing a student: `editstu`
 
-The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
+This feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
 or changes made to the student's details.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
@@ -229,7 +230,7 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-The `addresponse` feature allows you to edit your students' response count. This helps you to track your 
+This feature allows you to edit your students' response count. This helps you to track your 
 student's participation in the tutorial through the recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
@@ -237,7 +238,6 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * Edits response count of the student at the specified `INDEX`.
     * If `addresponse 1 m/7` is keyed in after `addresponse 1 m/2`, the response count for the first
       student in the student list will be 7 instead of 2.
-* The `INDEX` refers to the index number shown in the displayed student list.
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
     `response: 000000000`
 
@@ -357,7 +357,6 @@ attention compared to the other questions.
 Format: `markq INDEX`
 
 * Marks the question at the specified `INDEX` as important.
-* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -375,7 +374,6 @@ was marked as important by mistake.
 Format: `unmarkq INDEX`
 
 * Marks the question at the specified `INDEX` as unimportant.
-* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -387,8 +385,6 @@ This feature allows you to delete a question in the question list.
 Once a question has been addressed, you can delete it from the list.
 
 Format: `deleteq INDEX`
-
-* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -424,7 +420,6 @@ Deletes a tutorial in the tutorial list.
 Format: `deletetut INDEX`
 
 * Deletes the tutorial at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed tutorial list.
 
 Example:
 
@@ -434,12 +429,11 @@ Example:
 
 ### Marking a tutorial: `marktut`
 
-The `marktut` feature allows you to mark a tutorial as complete.
+This feature allows you to mark a tutorial as complete.
 
 Format: `marktut INDEX`
 
 * Marks the tutorial at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed tutorial list.
 
 Example:
 
@@ -450,13 +444,12 @@ Example:
 
 ### Unmarking a tutorial: `unmarktut`
 
-The `unmarktut` feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
+This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
 you can undo it using this feature.
 
 Format: `unmarktut INDEX`
 
-* Marks the tutorial at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed tutorial list.
+* Unmarks the tutorial at the specified `INDEX`.
 
 Example:
 
