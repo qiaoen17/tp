@@ -55,9 +55,9 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
     * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
     * **Exiting the program**: [`exit`](#exiting-seta--exit)
-    * **[FAQ](#faq)**
-    * **[Command Summary](#command-summary)**
-    * **[Glossary](#glossary)**
+ * **[FAQ](#faq)**
+ * **[Command Summary](#command-summary)**
+ * **[Glossary](#glossary)**
 
 
 --------------------------------------------------------------------------------------------------------------------
