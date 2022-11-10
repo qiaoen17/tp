@@ -11,7 +11,13 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
-In this guide, the :information_source: icon will provide you with useful information while using the application.
+The following table will inform you what kind of information comes with each of these icons.
+
+| Icon                  | Purpose                             |
+|----------------|--------------------------------------------|
+| :information_source:  | Additional useful explanation given |
+| :exclamation:         | Important word of caution           |
+
 
 <div markdown="block" class="alert alert-info">
 
