@@ -11,7 +11,13 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
-In this guide, the :information_source: icon will provide you with useful information while using the application.
+The following table will inform you what kind of information comes with each of these icons.
+
+| Icon                  | Purpose                             |
+|----------------|--------------------------------------------|
+| :information_source:  | Additional useful explanation given |
+| :exclamation:         | Important word of caution           |
+
 
 <div markdown="block" class="alert alert-info">
 
@@ -25,7 +31,6 @@ tutorials.
 ![CommandBox](images/ug-screenshots/commandbox.png)
 
 </div>
-
 
 * Table of Contents
     * **[Quick Start](#quick-start)**
@@ -52,19 +57,21 @@ tutorials.
     * **[FAQ](#faq)**
     * **[Command Summary](#command-summary)**
 
-
 --------------------------------------------------------------------------------------------------------------------
 
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
-   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
+   above installed in your Computer. If you have issues doing so, refer to the troubleshooting
+   guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
+   .
 
 2. Download the latest `SETA.jar` from [here](https://github.com/AY2223S1-CS2103T-T08-4/tp/releases).
 
 3. Copy the file to the folder you want to use as the _home folder_ for your SETA.
 
-4. Double-click the file to start the app. The GUI similar to the one below should appear in a few seconds. Note how the app
+4. Double-click the file to start the app. The GUI similar to the one below should appear in a few seconds. Note how the
+   app
    contains some sample data.<br>
    ![Ui](images/Ui.png)
 
@@ -87,10 +94,10 @@ You can refer to the [Features](#features) below for details of each command.
 ## Features
 
 SETA contains features that allow you to manage 3 things:
+
 1. [Students](#students)
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
-
 
 <div markdown="block" class="alert alert-info">
 
@@ -119,6 +126,7 @@ the number of items in its respective list e.g. for `markq`, `INDEX` must be les
 </div>
 
 ### Students
+
 The features under the student category allow you to keep track of and manage the students under you.
 You can see your student's details, such as their names, telegram handles, and email. The latter two aid you in
 contacting any students if necessary. You can also track each student's attendance and responses (the number of messages
@@ -129,7 +137,6 @@ he or she has sent on Zoom) to record their participation.
 Adds a student to the student list.
 At the start of the semester, after gathering the student details, you can add each student into SETA to start
 tracking their participation.
-
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
@@ -158,7 +165,8 @@ tracking their participation.
 
 ### Editing a student: `editstu`
 
-The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
+The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend
+any mistake
 or changes made to the student's details. The format for this command is as shown below.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
@@ -168,8 +176,10 @@ or changes made to the student's details. The format for this command is as show
 
 * Existing fields will be updated to the input values.
 * Editing a student with the same details as the student's original details will be accepted.
-  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an edit.)
-* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '0000' and '3' instead of '003').
+  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
+  edit.)
+* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '
+  0000' and '3' instead of '003').
 
 <div markdown="block" class="alert alert-info">
 
@@ -197,7 +207,6 @@ or changes made to the student's details. The format for this command is as show
     * After
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
 
-
 ### Adding student's attendance : `attendance`
 
 Increases student's attendance by 1. You can enter this command after each tutorial for students who attended that
@@ -212,17 +221,16 @@ Format: `attendance INDEX`
 Example:
 
 * `attendance 1`
-  * Before
-    <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
-  * After
-  <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
+    * Before
+      <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
+    * After
+      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
 
 ### Adding student's response: `addresponse`
 
 You can edit the message count of a specified student through this command.  
 This feature helps you to track your student's participation in the tutorial through the
 recording number of messages sent by him/her.
-
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -279,9 +287,9 @@ Example:
 
 * `unhelpstu 1`
 * Before
- <img src="images/ug-screenshots/unhelpstu_before.png" alt="unhelpstu 1" width="1100">
+  <img src="images/ug-screenshots/unhelpstu_before.png" alt="unhelpstu 1" width="1100">
 * After
-<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
+  <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
 
@@ -299,7 +307,7 @@ Example:
 * Before
   <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1100">
 * After
-<img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
+  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
 
 ### Finding a student: `findstu`
 
@@ -330,16 +338,15 @@ Example:
 * `liststu`
 
 ### Questions
-Sometimes, you may receive questions that you may not have the answer to or you may not have enough time to answer
-all of them during the tutorial. SETA allows you to track these questions. Furthermore, if you find a question that
-requires urgent clarification or critical thinking, you can indicate on the user interface that these questions are
-important. For questions requiring critical thinking, it would be also good to share them with other TAs so that the
-rest of the module's students can benefit from knowing this question.
+
+The features under the question category allows you to keep track of questions asked by students. These questions are
+added when you do not have enough time to answer them. Furthermore, if you find a question that
+requires urgent clarification or critical thinking, you can indicate these questions as important on the display.
 
 ### Adding a question : `addq`
 
-Adds a question to the question list.
-This feature allows you to keep track of your students' questions.
+This feature allows you to add a question to the question list, allowing you to keep track of the questions you have to
+address.
 
 Format: `addq QUESTION_DESCRIPTION`
 
@@ -349,8 +356,7 @@ Example:
 
 ### Marking a question : `markq`
 
-Marks a question as important.
-This feature enables you to indicate on the user interface that this question is important and requires more
+This feature allows you to indicate on the display that this question is important and requires more
 attention compared to the other questions.
 
 Format: `markq INDEX`
@@ -364,7 +370,8 @@ Example:
 
 ### Unmarking a question : `unmarkq`
 
-Allows you to mark a question as unimportant if the question was previously or mistakenly marked as important.
+This feature allows you to indicate on the display that this question is unimportant. It is used when if the question
+was marked as important by mistake.
 
 Format: `unmarkq INDEX`
 
@@ -377,7 +384,7 @@ Example:
 
 ### Deleting a question : `deleteq`
 
-Deletes a question in the question list.
+This feature allows you to delete a question in the question list.
 Once a question has been addressed, you can delete it from the list.
 
 Format: `deleteq INDEX`
@@ -389,15 +396,17 @@ Example:
 * `deleteq 1` deletes the first question from the question list
 
 ### Tutorials
-Each tutorial has a group number, a topic to focus on and a date and time. These correspond to the `GROUP_NUMBER`,
-`CONTENT` and `DATE TIME` parameters accordingly.
 
+The features under the tutorial category allow you to keep track of and manage your tutorials and consultations.
+You can see the group number, content, date and time for your tutorials. These correspond to the `GROUP_NUMBER`,
+`CONTENT` and `DATE TIME` parameters accordingly.
+You can also mark each tutorial as done or undone.
 
 ### Adding a tutorial : `addtut`
 
 Adds a tutorial to the tutorial list.
 
-Format: `addtut g/GROUP_NUMBER c/CONTENT t/DATE TIME`
+Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
 * The format of the date must be in the YYYY-MM-DD.
 * The format of the time must be in 24h format HHmm.
@@ -405,6 +414,8 @@ Format: `addtut g/GROUP_NUMBER c/CONTENT t/DATE TIME`
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
+
+  <img src="images/ug-screenshots/addtut.png" width="1100">
 
 ### Deleting a tutorial : `deletetut`
 
@@ -418,6 +429,8 @@ Format: `deletetut INDEX`
 Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
+
+ <img src="images/ug-screenshots/deletetut.png" width="1100">
 
 ### Marking a tutorial: `marktut`
 
@@ -480,13 +493,14 @@ If your changes to the data file makes its format invalid, SETA will discard all
 --------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
+
 You can find answers to frequently asked questions here.
 
 <details><summary>General</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
+   <strong>Q</strong>: How do I transfer my data to another Computer?<br>
+   <strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
 **Q**: I cannot see the sample data, what do I do?  
@@ -495,24 +509,31 @@ see the sample data now.
 
 **Q**: What does the cross button at the top right hand of the application do?<br>
 **A**: You can simply click on that button to exit the application!
+   <strong>Q</strong>: What does the cross button at the top right hand of the application do?<br>
+   <strong>A</strong>: You can simply click on that button to exit the application!
 
-**Q**: What is the difference between using the `exit` command and the cross button at the top right hand of the application?<br>
-**A**: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
+   <strong>Q</strong>: What is the difference between using the `exit` command and the cross button at the top right hand of the
+application?<br>
+   <strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
 
-**Q**: What does the question mark at the top left hand of the application do?<br>
-**A**: You can simply click on that button to view the link to our User Guide if you face any issues when using our application!
+   <strong>Q</strong>: What does the question mark at the top left hand of the application do?<br>
+   <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when using our
+application!
 </p>
 </details>
 
 <details><summary>Students</summary>
 <p>
 
-**Q**: How do I edit the attendance for my student?<br>
-**A**: There are 2 ways you can edit the attendance of your students!
+   <strong>Q</strong>: How do I edit the attendance for my student?<br>
+   <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
+
 * Using the `editstu` feature
-    * `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
+    * `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of
+      student 3 to 5.)
 * Using the `attendance` feature
-    * `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.)
+    * `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of
+      student 2 by 1.)
 
 </p>
 </details>
@@ -520,8 +541,8 @@ see the sample data now.
 <details><summary>Questions</summary>
 <p>
 
-**Q**: to be added <br>
-**A**: to be added
+   <strong>Q</strong>: Is there a way to delete all the questions using one command? <br>
+   <strong>A</strong>: Unfortunately, this feature will be rolled out in a future version of the app. Stay tuned!
 
 </p>
 </details>
@@ -529,10 +550,11 @@ see the sample data now.
 <details><summary>Tutorials</summary>
 <p>
 
-**Q**: Can I type the date and time in a different format? <br>
-**A**: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`. 
-However, there will be improvements made in the near future so that SETA can take in other date and time formats to better serve you.
- Please look forward to it!
+   <strong>Q</strong>: Can I type the date and time in a different format? <br>
+   <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`.
+However, there will be improvements made in the near future so that SETA can take in other date and time formats to
+better serve you.
+Please look forward to it!
 
 </p>
 </details>
