@@ -6,8 +6,10 @@ title: User Guide
 <a id="top"></a>
 
 SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
-questions asked by students. SETA is optimized for use via a Command Line Interface (CLI) while still having the
-benefits of a Graphical User Interface (GUI). If you can type fast, SETA enables you to track your students, manage your
+questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
+benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
+students, 
+manage your
 tutorials and note down questions more effectively than traditional GUI apps.
 
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
@@ -20,19 +22,6 @@ The following table will inform you what kind of information comes with each of 
 | :information_source: | Additional useful explanation given |
 | :exclamation:        | Important word of caution           |
 
-
-<div markdown="block" class="alert alert-info">
-
-**:information_source: What is a Command Line Interface (CLI)?**<br>
-
-It is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all
-you have to do is to type in the command box (red rectangle in the image below) and press enter to track your students
-and manage your questions and
-tutorials.
-
-![CommandBox](images/ug-screenshots/commandbox.png)
-
-</div>
 
 * Table of Contents
     * **[Quick Start](#quick-start)**
@@ -76,9 +65,10 @@ tutorials.
 
 4. Double-click the file to start the app. The GUI similar to the one below should appear in a few seconds. Note how the
    app
-   contains some sample data.<br>
+   contains some sample data.
+   <br><br>
    ![Ui](images/Ui.png)
-
+   <br><br>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`liststu`** and pressing Enter will
    list all the students in the 'Student' column.<br>
 
@@ -205,10 +195,13 @@ or changes made to the student's details. The format for this command is as show
 **Examples**:
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and
-  4 respectively.
+  4 respectively.<br><br>
     * Before
-      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
+      <br><br>
+      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">\
+      <br>
     * After
+  <br><br>
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
 
 ### Adding student's attendance : `attendance`
@@ -221,9 +214,13 @@ Format: `attendance INDEX`
 
 Example:
 * `attendance 1`
+  <br><br>
     * Before
+      <br><br>
       <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
+      <br><br>
     * After
+      <br><br>
       <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
 
 ### Adding student's response: `addresponse`
@@ -251,9 +248,13 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 Example:
 
 * `addresponse 1 m/7`
+  <br><br>
     * Before
+      <br><br>
       <img src="images/ug-screenshots/addresponse_before.png" alt="addresponse" width="1100">
+      <br><br>
     * After
+      <br><br>
       <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1100">
     
 ### Adding help tag: `helpstu`
@@ -293,9 +294,13 @@ Format: `deletestu INDEX`
 Example:
 
 * `deletestu 2`
+  <br><br>
 * Before
+  <br><br>
   <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1100">
+  <br><br>
 * After
+  <br><br>
   <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
 
 ### Finding a student: `findstu`
@@ -356,6 +361,7 @@ Format: `markq INDEX`
 Example:
 
 * `markq 1` marks the first question in the question list as important
+  <br><br>
 
   <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
 
@@ -406,6 +412,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
+  <br><br>
 
   <img src="images/ug-screenshots/addtut.png" width="1100">
 
@@ -436,6 +443,7 @@ Format: `marktut INDEX`
 Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
+
 <img src="images/ug-screenshots/marktut.png" alt="before" width="1100">
 
 
@@ -452,6 +460,7 @@ Format: `unmarktut INDEX`
 Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
+
 <img src="images/ug-screenshots/unmarktut.png" alt="before" width="1100">
 
 ### Clearing data in SETA : `clear`
@@ -469,12 +478,13 @@ Format: `exit`
 
 ### Saving the data
 
-SETA data are saved in the hard disk automatically after any command that changes the data. There is no need to save
+SETA data are saved in the [hard disk](#hard-disk) automatically after any command that changes the data. There is no 
+need to save
 manually.
 
 ### Editing the data file
 
-SETA data are saved as a JSON file `[JAR file location]/data/seta.json`. Advanced users are welcome to update data
+SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to update data
 directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
@@ -580,5 +590,35 @@ This command summary gives you an overview of all the commands available in SETA
 | **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Glossary
+
+This glossary provides the definitions of certain terms used in this user guide.
+
+### Command Line Interface (CLI)
+CLI is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all
+you have to do is to type in the command box (red rectangle in the image below) and press enter to track your students
+and manage your questions and
+tutorials.
+
+![CommandBox](images/ug-screenshots/commandbox.png)
+
+### Graphical User Interface (GUI)
+
+GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
+For example, clicking on the top right cross icon in SETA allows you to exit SETA.
+
+![ExitButton](images/ug-screenshots/exitbutton.png)
+
+### JSON file
+
+A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file format and a data interchange format. 
+Its purpose is to use human-readable text to store and transmit data objects.
+
+### Hard Disk
+
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data. 
 
 <a href="#top">Go to top</a>
