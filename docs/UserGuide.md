@@ -98,7 +98,7 @@ SETA contains features that allow you to manage 3 things:
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format:**<br>
 
@@ -226,9 +226,8 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-You can edit the message count of a specified student through this command.  
-This feature helps you to track your student's participation in the tutorial through the
-recording number of messages sent by him/her.
+The `addresponse` feature allows you to edit your students' response count. This helps you to track your 
+student's participation in the tutorial through the recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -499,7 +498,8 @@ If your changes to the data file makes its format invalid, SETA will discard all
 
 You can find answers to frequently asked questions here.
 
-<details><summary><strong>General</strong></summary>
+
+<details><summary style="color: #7b97cb"><strong>General</strong></summary>
 <p>
 
    <strong>Q</strong>: How do I transfer my data to another Computer?<br>
@@ -536,7 +536,9 @@ application!
 </p>
 </details>
 
-<details><summary><strong>Students</strong></summary>
+
+<details><summary style="color: #7b97cb"><strong>Students</strong></summary>
+<p>
 
    <strong>Q</strong>: How do I edit the attendance for my student?<br>
    <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
@@ -547,7 +549,7 @@ application!
 
 </details>
 
-<details><summary><strong>Questions</strong></summary>
+<details><summary style="color: #7b97cb"><strong>Questions</strong></summary>
 <p>
 
    <strong>Q</strong>: Is there a way to delete all the questions using one command? <br>
@@ -556,7 +558,7 @@ application!
 </p>
 </details>
 
-<details><summary><strong>Tutorials</strong></summary>
+<details><summary style="color: #7b97cb"><strong>Tutorials</strong></summary>
 <p>
 
    <strong>Q</strong>: Can I type the date and time in a different format? <br>
