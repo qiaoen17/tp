@@ -258,7 +258,6 @@ Example:
     
 ### Adding help tag: `helpstu`
 
-
 This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
  needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
  who needs more of your attention during tutorials.
@@ -274,7 +273,7 @@ Example:
 ### Removing help tag: `unhelpstu`
 
 This feature allows you to remove help tag from an existing student. You can enter this command when you find a specific student that you thought
- needed help is doing well or does not need special attention anymore.
+needed help is doing well or does not need special attention anymore.
 
 Format: `unhelpstu INDEX`
 
@@ -290,9 +289,6 @@ This feature allows you to remove a specific student.
 If a student has left the module or swapped tutorial group, you can delete him from the list.
 
 Format: `deletestu INDEX`
-
-* Deletes the student at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -361,7 +357,8 @@ Example:
 
 * `markq 1` marks the first question in the question list as important
 
-<img src="images/ug-screenshots/markq.png" alt="deletestu 2" width="1100">
+  <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
+
 
 ### Unmarking a question : `unmarkq`
 
@@ -583,4 +580,5 @@ This command summary gives you an overview of all the commands available in SETA
 | **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
+
 <a href="#top">Back to top</a>
