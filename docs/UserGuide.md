@@ -489,7 +489,7 @@ If your changes to the data file makes its format invalid, SETA will discard all
 You can find answers to frequently asked questions here.
 
 
-<details><summary style="color: blue"><strong>General</strong></summary>
+<details><summary style="color: #7b97cb"><strong>General</strong></summary>
 <p>
 
    <strong>Q</strong>: How do I transfer my data to another Computer?<br>
@@ -527,7 +527,7 @@ application!
 </details>
 
 
-<details><summary style="color: blue"><strong>Students</strong></summary>
+<details><summary style="color: #7b97cb"><strong>Students</strong></summary>
 <p>
 
    <strong>Q</strong>: How do I edit the attendance for my student?<br>
@@ -539,7 +539,7 @@ application!
 
 </details>
 
-<details><summary style="color: blue"><strong>Questions</strong></summary>
+<details><summary style="color: #7b97cb"><strong>Questions</strong></summary>
 <p>
 
    <strong>Q</strong>: Is there a way to delete all the questions using one command? <br>
@@ -548,7 +548,7 @@ application!
 </p>
 </details>
 
-<details><summary style="color: blue"><strong>Tutorials</strong></summary>
+<details><summary style="color: #7b97cb"><strong>Tutorials</strong></summary>
 <p>
 
    <strong>Q</strong>: Can I type the date and time in a different format? <br>
