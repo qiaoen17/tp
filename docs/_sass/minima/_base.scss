@@ -13,7 +13,9 @@ dl, dd, ol, ul, figure {
 
 }
 
-
+#top{
+position: fixed;
+}
 
 /**
  * Basic styling
@@ -292,4 +294,3 @@ table {
     font-size: 32px;
   }
 }
-
