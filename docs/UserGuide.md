@@ -21,10 +21,11 @@ needs as a CS2103T TA.
 The following table will tell you the purpose of the icons used in this User Guide.
 
 
-| Icon                 | Purpose                             |
-|----------------------|-------------------------------------|
-| :information_source: | Additional useful explanation given |
-| :exclamation:        | Important word of caution           |
+| Icon                 | Purpose                                             |
+|----------------------|-----------------------------------------------------|
+| :x:                  | Contains information on the constraints of commands |
+| :information_source: | Additional useful explanation given                 |
+| :exclamation:        | Important word of caution                           |
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -142,7 +143,7 @@ and email.
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 
 * Name constraints
     * Name should only contain alphanumeric characters and spaces, and it should not be blank.
@@ -178,7 +179,7 @@ or changes made to the student's details.
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 
 * Name constraints
     * Name should only contain alphanumeric characters and spaces, and it should not be blank.
@@ -241,7 +242,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 * The `MESSAGE_COUNT` must be a positive integer 1, 2, 3, ...
 
 </div>
@@ -306,9 +307,8 @@ Example:
 
 ### Finding a student: `findstu`
 
-Finds one or more specific students.
-As the student list can potentially contain more than 40 students, this feature helps you to specifically find the
-student based on the student's name.
+This feature allows you to find one or more specific students whose names contain any of the given keywords to view their details.
+After using this feature, you can use the `liststu` command to go back to view all your students.
 
 Format: `findstu KEYWORD [MORE_KEYWORDS]`
 
@@ -322,9 +322,8 @@ Examples:
 
 ### Listing all students: `liststu`
 
-Lists all students in the student list.
-After the above feature(`findstu`) is used, you may want to view all the students that you have again. This feature
-helps you to do so.
+This feature allows you to list all students you have. 
+This feature is useful after using the `findstu` feature to view all the students that you have.
 
 Format: `liststu`
 
@@ -503,35 +502,35 @@ You can find answers to frequently asked questions here.
 <details><summary style="color: #7b97cb"><strong>General</strong></summary>
 <p>
 
-   <strong>Q</strong>: How do I transfer my data to another Computer?<br>
+   <strong>Q: How do I transfer my data to another Computer?</strong><br>
    <strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
    <br><br>
    
-   <strong>Q</strong>: I cannot see the sample data, what do I do?<br>
+   <strong>Q: I cannot see the sample data, what do I do?</strong><br>
    <strong>A</strong>: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
 see the sample data now.
 
    <br><br>
    
-   <strong>Q</strong>: What does the cross button at the top right hand of the application do?<br>
+   <strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
    <strong>A</strong>: You can simply click on that button to exit the application!
    
    <br><br>
    
-   <strong>Q</strong>: What does the cross button at the top right hand of the application do?<br>
+   <strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
    <strong>A</strong>: You can simply click on that button to exit the application!
    
    <br><br>
    
-   <strong>Q</strong>: What is the difference between using the `exit` command and the cross button at the top right hand of the
-application?<br>
+   <strong>Q: What is the difference between using the `exit` command and the cross button at the top right hand of the
+application?</strong><br>
    <strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
 
    <br><br>
    
-   <strong>Q</strong>: What does the question mark at the top left hand of the application do?<br>
+   <strong>Q: What does the question mark at the top left hand of the application do?</strong><br>
    <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when using our
 application!
 </p>
@@ -541,7 +540,7 @@ application!
 <details><summary style="color: #7b97cb"><strong>Students</strong></summary>
 <p>
 
-   <strong>Q</strong>: How do I edit the attendance for my student?<br>
+   <strong>Q: How do I edit the attendance for my student?</strong><br>
    <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
     <ul>
     <li>Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.) </li>
@@ -553,7 +552,7 @@ application!
 <details><summary style="color: #7b97cb"><strong>Questions</strong></summary>
 <p>
 
-   <strong>Q</strong>: Is there a way to delete all the questions using one command? <br>
+   <strong>Q: Is there a way to delete all the questions using one command?</strong><br>
    <strong>A</strong>: Unfortunately, this feature will be rolled out in a future version of the app. Stay tuned!
 
 </p>
@@ -562,7 +561,7 @@ application!
 <details><summary style="color: #7b97cb"><strong>Tutorials</strong></summary>
 <p>
 
-   <strong>Q</strong>: Can I type the date and time in a different format? <br>
+   <strong>Q: Can I type the date and time in a different format?</strong><br>
    <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`.
 However, there will be improvements made in the near future so that SETA can take in other date and time formats to
 better serve you.
@@ -575,7 +574,7 @@ Please look forward to it!
 
 ## Command Summary
 
-This command summary gives you an overview of all the commands available in SETA.
+This command summary gives you an overview of all the commands available in SETA for your easy reference.
 
 | Action         | Format, Examples                           |
 |----------------|--------------------------------------------|
