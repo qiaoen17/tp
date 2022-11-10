@@ -1,6 +1,5 @@
 ---
-layout: page 
-title: User Guide
+layout: page title: User Guide
 ---
 
 <a id="top"></a>
@@ -15,7 +14,7 @@ questions asked by students. SETA is optimized for use via a [Command Line Inter
 benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
 students, 
 manage your
-tutorials and note down questions more effectively than traditional GUI apps.
+tutorials and note-down questions more effectively than traditional GUI apps.
 
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your needs
 as a CS2103T TA.
@@ -68,7 +67,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or above
-   installed in your Computer. If you have issues doing so, refer to the troubleshooting
+   installed on your Computer. If you have issues doing so, refer to the troubleshooting
    guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
    .
 
@@ -110,7 +109,7 @@ SETA contains features that allow you to manage 3 things:
 **:information_source: Notes about the command format:**<br>
 
 * Words in `UPPER_CASE` are the parameters to be supplied by you.<br>
-  e.g. in `addstu n/NAME`, `NAME` is a parameter which can be used as `addstu n/John Lim`.
+  e.g. in `addstu n/NAME`, `NAME` is a parameter that can be used as `addstu n/John Lim`.
 
 * Items in square brackets are optional.<br>
   e.g. `n/NAME [h/TELEGRAM_HANDLE]` can be used as `n/John Lim h/@johnlim` or as `n/John Lim`.
@@ -126,7 +125,7 @@ SETA contains features that allow you to manage 3 things:
   e.g. if the command specifies `liststu 123`, it will be interpreted as `liststu`.
 
 * `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
-  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than number of questions in question
+  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the question
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
@@ -502,7 +501,7 @@ You can find answers to frequently asked questions here.
 <h3><strong>General</strong></h3>
 
 <strong>Q: How do I transfer my data to another Computer?</strong><br>
-<strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file
+<strong>A</strong>: Install the app on the other computer and overwrite the empty data file it creates with the file
 that contains the data of your previous SETA home folder.
 
    <br>
@@ -513,12 +512,7 @@ able to see the sample data now.
 
    <br>
 
-<strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
-<strong>A</strong>: You can simply click on that button to exit the application!
-
-   <br>
-
-<strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
+<strong>Q: What does the cross button at the top right-hand of the application do?</strong><br>
 <strong>A</strong>: You can simply click on that button to exit the application!
 
    <br>
@@ -530,7 +524,7 @@ troublesome!
 
    <br>
 
-<strong>Q: What does the question mark at the top left hand of the application do?</strong>
+<strong>Q: What does the question mark at the top left-hand of the application do?</strong>
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
 
@@ -542,7 +536,7 @@ using our application!
 * Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number.   
   (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
 * Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1.   
-  (E.g. `attendance 2` increase attendance of student 2 by 1.)
+  (E.g. `attendance 2` increases attendance of student 2 by 1.)
 
 <h3><strong>Questions</strong></h3>
 
@@ -585,7 +579,7 @@ This glossary provides the definitions of certain terms used in this user guide.
 
 ### Command Line Interface (CLI)
 
-CLI is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all you have
+CLI is a program that allows you to create, modify and delete files using a text-based display. In SETA, all you have
 to do is to type in the command box (red rectangle in the image below) and press enter to track your students and manage
 your questions and tutorials.
 
