@@ -52,7 +52,7 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
         * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
         * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-        * Unmarking a tutorial: [`unmarktut`](#marking-a-tutorial-as-undone-unmarktut)
+        * Marking a tutorial as undone: [`unmarktut`](#marking-a-tutorial-as-undone-unmarktut)
     * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
     * **Exiting the program**: [`exit`](#exiting-seta--exit)
  * **[FAQ](#faq)**
