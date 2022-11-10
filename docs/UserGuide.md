@@ -272,9 +272,7 @@ Format: `unhelpstu INDEX`
 Example:
 
 * `unhelpstu 1`
-* Before
- <img src="images/ug-screenshots/unhelpstu_before.png" alt="unhelpstu 1" width="1100">
-* After
+* 
 <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
@@ -359,6 +357,8 @@ Format: `markq INDEX`
 Example:
 
 * `markq 1` marks the first question in the question list as important
+
+<img src="images/ug-screenshots/markq.png" alt="deletestu 2" width="1100">
 
 ### Unmarking a question : `unmarkq`
 
@@ -509,7 +509,7 @@ the data of your previous SETA home folder.
 <details><summary>Students</summary>
 <p>
 
-**Q**: How do I edit the attendance for my student?<br>
+**Q**: How do I edit the attendance for my student? <br>
 **A**: There are 2 ways you can edit the attendance of your students!
 * Using the `editstu` feature
     * `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
