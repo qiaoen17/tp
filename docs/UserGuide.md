@@ -53,7 +53,9 @@ tutorials.
             * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
             * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
             * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-        * **Exiting the program**: [`exit`](#exiting-the-program--exit)
+            * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
+        * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
+        * **Exiting the program**: [`exit`](#exiting-seta--exit)
     * **[FAQ](#faq)**
     * **[Command Summary](#command-summary)**
 
@@ -465,8 +467,6 @@ Clears the data in SETA. Use this to clear the sample data given at the beginnin
 want to start adding students, questions and tutorials from scratch again.
 
 Format: `clear `
-
-<img src="img/ug-screenshots/clear.png" width="1100">
 
 ### Exiting SETA : `exit`
 
