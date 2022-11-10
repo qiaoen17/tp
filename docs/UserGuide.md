@@ -581,4 +581,4 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
 
-<a href="#top">Back to top</a>
+<a href="#top">Go to top</a>
