@@ -213,13 +213,13 @@ or changes made to the student's details. The format for this command is as show
 
 ### Adding student's attendance : `attendance`
 
-This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's attendance by 1.
+This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's attendance by 1. 
 At the end of the semester, you can have an overview of all the students' attendance for grading
+purposes (participation marks).
 
 Format: `attendance INDEX`
 
 Example:
-
 * `attendance 1`
     * Before
       <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
@@ -259,8 +259,8 @@ Example:
 ### Adding help tag: `helpstu`
 
 This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
-needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
-who needs more of your attention during tutorials.
+ needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
+ who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
 
@@ -280,6 +280,7 @@ Format: `unhelpstu INDEX`
 Example:
 
 * `unhelpstu 1`
+
 <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
@@ -357,6 +358,7 @@ Example:
 * `markq 1` marks the first question in the question list as important
 
   <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
+
 
 ### Unmarking a question : `unmarkq`
 
@@ -579,4 +581,4 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
 
-<a href ="#top">Back to top</a>
+<a href="#top">Back to top</a>
