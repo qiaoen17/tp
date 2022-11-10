@@ -499,46 +499,43 @@ If your changes to the data file makes its format invalid, SETA will discard all
 You can find answers to frequently asked questions here.
 
 
-<details><summary style="color: #7b97cb"><strong>General</strong></summary>
-<p>
+<h3><strong>General</strong></h3>
 
    <strong>Q: How do I transfer my data to another Computer?</strong><br>
    <strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
-   <br><br>
+   <br>
    
    <strong>Q: I cannot see the sample data, what do I do?</strong><br>
    <strong>A</strong>: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
 see the sample data now.
 
-   <br><br>
+   <br>
    
    <strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
    <strong>A</strong>: You can simply click on that button to exit the application!
    
-   <br><br>
+   <br>
    
    <strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
    <strong>A</strong>: You can simply click on that button to exit the application!
    
-   <br><br>
+   <br>
    
    <strong>Q: What is the difference between using the `exit` command and the cross button at the top right hand of the
 application?</strong><br>
    <strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
 
-   <br><br>
+   <br>
    
-   <strong>Q: What does the question mark at the top left hand of the application do?</strong><br>
+   <strong>Q: What does the question mark at the top left hand of the application do?</strong>
    <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when using our
 application!
-</p>
-</details>
 
 
-<details><summary style="color: #7b97cb"><strong>Students</strong></summary>
-<p>
+
+<h3><strong>Students</strong></h3>
 
    <strong>Q: How do I edit the attendance for my student?</strong><br>
    <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
@@ -547,19 +544,12 @@ application!
     <li>Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.) </li>
     </ul>
 
-</details>
-
-<details><summary style="color: #7b97cb"><strong>Questions</strong></summary>
-<p>
+<h3><strong>Questions</strong></h3>
 
    <strong>Q: Is there a way to delete all the questions using one command?</strong><br>
    <strong>A</strong>: Unfortunately, this feature will be rolled out in a future version of the app. Stay tuned!
 
-</p>
-</details>
-
-<details><summary style="color: #7b97cb"><strong>Tutorials</strong></summary>
-<p>
+<h3><strong>Tutorials</strong></h3>
 
    <strong>Q: Can I type the date and time in a different format?</strong><br>
    <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`.
@@ -567,8 +557,7 @@ However, there will be improvements made in the near future so that SETA can tak
 better serve you.
 Please look forward to it!
 
-</p>
-</details>
+
 
 --------------------------------------------------------------------------------------------------------------------
 
