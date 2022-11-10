@@ -503,19 +503,30 @@ You can find answers to frequently asked questions here.
    <strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
-**Q**: I cannot see the sample data, what do I do?  
-**A**: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
+   <br><br>
+   
+   <strong>Q</strong>: I cannot see the sample data, what do I do?  
+   <strong>A</strong>: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
 see the sample data now.
 
-**Q**: What does the cross button at the top right hand of the application do?<br>
-**A**: You can simply click on that button to exit the application!
+   <br><br>
+   
    <strong>Q</strong>: What does the cross button at the top right hand of the application do?<br>
    <strong>A</strong>: You can simply click on that button to exit the application!
-
+   
+   <br><br>
+   
+   <strong>Q</strong>: What does the cross button at the top right hand of the application do?<br>
+   <strong>A</strong>: You can simply click on that button to exit the application!
+   
+   <br><br>
+   
    <strong>Q</strong>: What is the difference between using the `exit` command and the cross button at the top right hand of the
 application?<br>
    <strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too troublesome!
 
+   <br><br>
+   
    <strong>Q</strong>: What does the question mark at the top left hand of the application do?<br>
    <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when using our
 application!
