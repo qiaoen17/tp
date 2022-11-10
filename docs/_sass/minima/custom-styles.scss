@@ -11,6 +11,7 @@ h2, h3, h4, h5, h6 {
   margin-bottom: $alert-margin-bottom;
   border: $alert-border-width solid transparent;
   order-radius : $alert-border-radius;
+  color: #e46c0a;
 }
 
 // Headings for larger alerts
@@ -24,9 +25,6 @@ h2, h3, h4, h5, h6 {
   font-weight: $alert-link-font-weight;
 }
 
-.alert-orange {
-    color: orange;
-}
 
 // Generate contextual modifier classes for colorizing the alert.
 
