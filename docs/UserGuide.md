@@ -459,8 +459,8 @@ Example:
 
 ### Clearing data in SETA : `clear`
 
-Clears the data in SETA. Use this to clear the sample data given at the beginning or when you
-want to start adding students, questions and tutorials from scratch again.
+This feature allows you to clear all the data in SETA. You can use this to clear the sample data given at the beginning or when you
+want to delete all your data at once.
 
 Format: `clear `
 
@@ -605,4 +605,3 @@ Its purpose is to use human-readable text to store and transmit data objects.
 
 A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data. 
 
-<a href="#top">Go to top</a>
