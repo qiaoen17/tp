@@ -592,13 +592,8 @@ your questions and tutorials.
 
 ### Graphical User Interface (GUI)
 
-<<<<<<< HEAD
 GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
 For example, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
-=======
-GUI is a kind of display that allows you to perform an action within the application through the graphics in the app.
-For example, clicking on the top right cross icon in SETA allows you to exit SETA.
->>>>>>> c54186a70151193da0c736a29444fcbb29c4e179
 
 ![ExitButton](images/ug-screenshots/exit.png)
 
