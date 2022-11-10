@@ -323,16 +323,12 @@ Example:
 * `liststu`
 
 ### Questions
-Sometimes, you may receive questions that you may not have the answer to or you may not have enough time to answer
-all of them during the tutorial. SETA allows you to track these questions. Furthermore, if you find a question that
-requires urgent clarification or critical thinking, you can indicate on the user interface that these questions are
-important. For questions requiring critical thinking, it would be also good to share them with other TAs so that the
-rest of the module's students can benefit from knowing this question.
+The features under the question category allows you to keep track of questions asked by students. These questions are added when you do not have enough time to answer them. Furthermore, if you find a question that
+requires urgent clarification or critical thinking, you can indicate these questions as important on the display.
 
 ### Adding a question : `addq`
 
-Adds a question to the question list.
-This feature allows you to keep track of your students' questions.
+This feature allows you to add a question to the question list, allowing you to keep track of the questions you have to address. 
 
 Format: `addq QUESTION_DESCRIPTION`
 
@@ -342,8 +338,7 @@ Example:
 
 ### Marking a question : `markq`
 
-Marks a question as important.
-This feature enables you to indicate on the user interface that this question is important and requires more
+This feature allows you to indicate on the display that this question is important and requires more
 attention compared to the other questions.
 
 Format: `markq INDEX`
@@ -360,7 +355,7 @@ Example:
 
 ### Unmarking a question : `unmarkq`
 
-Allows you to mark a question as unimportant if the question was previously or mistakenly marked as important.
+This feature allows you to indicate on the display that this question is unimportant. It is used when if the question was marked as important by mistake.
 
 Format: `unmarkq INDEX`
 
@@ -376,7 +371,7 @@ Example:
 
 ### Deleting a question : `deleteq`
 
-Deletes a question in the question list.
+This feature allows you to delete a question in the question list.
 Once a question has been addressed, you can delete it from the list.
 
 Format: `deleteq INDEX`
