@@ -19,7 +19,7 @@ The following table will inform you what kind of information comes with each of 
 | :exclamation:        | Important word of caution           |
 
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-info">
 
 **:information_source: What is a Command Line Interface (CLI)?**<br>
 
