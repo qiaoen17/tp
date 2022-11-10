@@ -5,7 +5,11 @@ title: User Guide
 
 <a id="top"></a>
 
-SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
+SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
+track 
+students’ and 
+tutorials’ details,
+and
 questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
 benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
 students, 
@@ -592,16 +596,18 @@ tutorials.
 ### Graphical User Interface (GUI)
 
 GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
-For example, clicking on the top right cross icon in SETA allows you to exit SETA.
+For example, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
 
 ![ExitButton](images/ug-screenshots/exit.png)
 
 ### JSON file
 
 A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file format and a data interchange format. 
-Its purpose is to use human-readable text to store and transmit data objects.
+Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store 
+information for the student, question and tutorial list.
 
 ### Hard Disk
 
-A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data. 
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that 
+stores and retrieves digital data. This is found in your device that is running SETA.
 
