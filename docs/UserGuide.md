@@ -112,6 +112,10 @@ SETA contains features that allow you to manage 3 things:
 * Extraneous parameters for commands that do not take in parameters (such as `liststu` and `exit`) will be ignored.<br>
   e.g. if the command specifies `liststu 123`, it will be interpreted as `liststu`.
 
+* `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
+the number of items in its respective list e.g. for `markq`, `INDEX` must be less than number of questions in question list.
+
+
 </div>
 
 ### Students
@@ -171,8 +175,6 @@ or changes made to the student's details. The format for this command is as show
 
 **:information_source: Command Constraints**<br>
 
-* Index constraints
-    * Index should be a positive integer (E.g. 1, 2...)
 * Name constraints
     * Name should only contain alphanumeric characters and spaces, and it should not be blank.
 * Telegram handle constraints
@@ -206,7 +208,6 @@ Format: `attendance INDEX`
 
 * Increment attendance to the student at the specified INDEX.
 * The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2, 3, ….
 
 Example:
 
@@ -228,16 +229,25 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * Edits response count of the student at the specified INDEX.
     * If `addresponse 1 m/7` is keyed in after `addresponse 1 m/2`, the response count for the first
       student in the student list will be 7 instead of 2.
-* The `INDEX` refers to the index number shown in the displayed student list.
-* The `INDEX` must be a positive integer 1, 2, 3, ...
-* The `MESSAGE_COUNT` must be a positive integer 1, 2, 3, ...
+* `INDEX` refers to the index number shown in the displayed student list.
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
-  `response: 000000000`
+    `response: 000000000`
+
+<div markdown="block" class="alert alert-info">
+
+**:information_source: Command Constraints**<br>
+* The `MESSAGE_COUNT` must be a positive integer 1, 2, 3, ...
+
+</div>
 
 Example:
 
 * `addresponse 1 m/7`
-
+    * Before
+      <img src="images/ug-screenshots/addresponse_before.png" alt="addresponse" width="1100">
+    * After
+      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1100">
+    
 ### Adding help tag: `helpstu`
 
 Adds a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
@@ -248,7 +258,6 @@ Format: `helpstu INDEX`
 
 * Adds a help tag to the student at the specified INDEX.
 * The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2. 3, ….
 
 Example:
 
@@ -265,7 +274,6 @@ Format: `unhelpstu INDEX`
 
 * Removes a help tag from the student at the specified INDEX.
 * The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2. 3, ….
 
 Example:
 
@@ -284,7 +292,6 @@ Format: `deletestu INDEX`
 
 * Deletes the student at the specified INDEX.
 * The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2. 3, ….
 
 Example:
 
@@ -350,9 +357,6 @@ Format: `markq INDEX`
 
 * Marks the question at the specified INDEX as important.
 * The index refers to the index number shown in the displayed question list.
-* The index must be a positive integer 1, 2, 3, ...
-* The index must be within the number of questions in the question list. E.g. There are 4 questions. The possible
-  indexes are 1, 2, 3 and 4.
 
 Example:
 
@@ -366,9 +370,6 @@ Format: `unmarkq INDEX`
 
 * Marks the question at the specified INDEX as unimportant.
 * The index refers to the index number shown in the displayed question list.
-* The index must be a positive integer 1, 2, 3, ...
-* The index must be within the number of questions in the question list. E.g. There are 4 questions. The possible
-  indexes are 1, 2, 3 and 4.
 
 Example:
 
@@ -382,9 +383,6 @@ Once a question has been addressed, you can delete it from the list.
 Format: `deleteq INDEX`
 
 * The index refers to the index number shown in the displayed question list.
-* The index must be a positive integer 1, 2, 3, ...
-* The index must be within the number of questions in the question list. E.g. There are 4 questions. The possible
-  indexes are 1, 2, 3 and 4.
 
 Example:
 
@@ -416,8 +414,6 @@ Format: `deletetut INDEX`
 
 * Deletes the tutorial at the specified INDEX.
 * The index refers to the index number shown in the displayed tutorial list.
-* The index must be a positive integer 1, 2. 3, … .
-*
 
 Example:
 
@@ -425,33 +421,33 @@ Example:
 
 ### Marking a tutorial: `marktut`
 
-Marks the tutorial and its content as done.
-When the tutorial is over, you can indicate on the user interface that it is done.
+The `marktut` feature allows you to mark a tutorial as complete.
 
 Format: `marktut INDEX`
 
 * Marks the tutorial at the specified `INDEX`.
 * The index refers to the index number shown in the displayed tutorial list.
-* The index must be a positive integer 1, 2, 3, ... .
 
 Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
+<img src="images/ug-screenshots/marktut.png" alt="before" width="1100">
+
 
 ### Unmarking a tutorial: `unmarktut`
 
-Marks content in the tutorial as undone.
-If a tutorial was mistakenly marked as done, you can undo it using this feature.
+The `unmarktut` feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
+you can undo it using this feature.
 
 Format: `unmarktut INDEX`
 
 * Marks the tutorial at the specified `INDEX`.
 * The index refers to the index number shown in the displayed tutorial list.
-* The index must be a positive integer 1, 2, 3, ...
 
 Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
+<img src="images/ug-screenshots/unmarktut.png" alt="before" width="1100">
 
 ### Clearing data in SETA : `clear`
 
@@ -492,6 +488,10 @@ You can find answers to frequently asked questions here.
 **Q**: How do I transfer my data to another Computer?<br>
 **A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
+
+**Q**: I cannot see the sample data, what do I do?  
+**A**: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
+see the sample data now.
 
 **Q**: What does the cross button at the top right hand of the application do?<br>
 **A**: You can simply click on that button to exit the application!
