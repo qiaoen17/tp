@@ -42,8 +42,8 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Listing all students: [`liststu`](#listing-all-students-liststu)
     * **[Questions](#questions)**
         * Adding a question: [`addq`](#adding-a-question--addq)
-        * Marking a question: [`markq`](#marking-a-question--markq)
-        * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
+        * Marking a question as important: [`markq`](#marking-a-question-as-important--markq)
+        * Marking a question as unimportant: [`unmarkq`](#marking-a-question-as-unimportant--unmarkq)
         * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
     * **[Tutorials](#tutorials)**
         * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
@@ -350,7 +350,7 @@ Example:
 
 * `addq what is the difference between self-invocation and call-backs for sequence diagrams?`
 
-### Marking a question : `markq`
+### Marking a question as important : `markq`
 
 This feature allows you to indicate on the display that this question is important and requires more attention compared
 to the other questions.
@@ -366,7 +366,8 @@ Example:
 
   <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
 
-### Unmarking a question : `unmarkq`
+### Marking a question as unimportant : `unmarkq`
+
 
 This feature allows you to indicate on the display that this question is unimportant. It is used when if the question
 was marked as important by mistake.
@@ -588,7 +589,7 @@ your questions and tutorials.
 GUI is a kind of display that allows you to perform an action within the application through the graphics in the app.
 For example, clicking on the top right cross icon in SETA allows you to exit SETA.
 
-![ExitButton](images/ug-screenshots/exitbutton.png)
+![ExitButton](images/ug-screenshots/exit.png)
 
 ### JSON file
 
