@@ -45,8 +45,8 @@ The following table tells you the purpose of the icons used in this User Guide.
         * Listing all students: [`liststu`](#listing-all-students-liststu)
     * **[Questions](#questions)**
         * Adding a question: [`addq`](#adding-a-question--addq)
-        * Marking a question: [`markq`](#marking-a-question-as-important--markq)
-        * Unmarking a question: [`unmarkq`](#marking-a-question-as-unimportant--unmarkq)
+        * Marking a question as important: [`markq`](#marking-a-question-as-important--markq)
+        * Marking a question as unimportant: [`unmarkq`](#marking-a-question-as-unimportant--unmarkq)
         * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
     * **[Tutorials](#tutorials)**
         * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
