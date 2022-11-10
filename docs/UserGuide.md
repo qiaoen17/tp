@@ -11,6 +11,9 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
+## Icons
+The following table will tell you the purpose of the icons used in this User Guide.
+
 <div markdown="block" class="alert alert-info">
 
 **:information_source: What is a Command Line Interface (CLI)?**<br>
@@ -458,8 +461,8 @@ You can find answers to frequently asked questions here.
 <details><summary>General</summary>
 <p>
 
-**Q** : How do I transfer my data to another Computer?<br>
-**A** : Install the app in the other computer and overwrite the empty data file it creates with the file that contains
+**Q**: How do I transfer my data to another Computer?<br>
+**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
 **Q**: What does the cross button at the top right hand of the application do?<br>
@@ -471,16 +474,14 @@ the data of your previous SETA home folder.
 </details>
 
 <details><summary>Students</summary>
-<p>
 
 **Q**: How do I edit the attendance for my student?<br>
 **A**: There are 2 ways you can edit the attendance of your students!
-* Using the `editstu` feature
-    * `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
-* Using the `attendance` feature
-    * `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.)
+<ul>
+<li>Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.) </li>
+<li>Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.) </li>
+</ul>
 
-</p>
 </details>
 
 <details><summary>Questions</summary>
