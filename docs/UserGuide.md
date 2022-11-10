@@ -594,7 +594,7 @@ tutorials.
 GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
 For example, clicking on the top right cross icon in SETA allows you to exit SETA.
 
-![ExitButton](images/ug-screenshots/exitbutton.png)
+![ExitButton](images/ug-screenshots/exit.png)
 
 ### JSON file
 
