@@ -1,5 +1,6 @@
 ---
-layout: page title: User Guide
+layout: page 
+title: User Guide
 ---
 
 <a id="top"></a>
