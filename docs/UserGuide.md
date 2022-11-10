@@ -495,7 +495,7 @@ If your changes to the data file makes its format invalid, SETA will discard all
 
 You can find answers to frequently asked questions here.
 
-<details><summary color="blue">General</summary>
+<details><summary style="color: blue">General</summary>
 <p>
 
    <strong>Q</strong>: How do I transfer my data to another Computer?<br>
