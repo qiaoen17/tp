@@ -549,7 +549,7 @@ application!
 <details><summary>Tutorials</summary>
 <p>
 
-**Q**: Can I type the date and time in a different format? <br>
+   <strong>Q</strong>: Can I type the date and time in a different format? <br>
 **A**: Unfortunately, the current version of SETA only accepts the date and time format of `YYYY-MM-DD HHmm`.
 However, there will be improvements made in the near future so that SETA can take in other date and time formats to
 better serve you.
