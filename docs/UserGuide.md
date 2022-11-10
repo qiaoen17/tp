@@ -200,18 +200,13 @@ or changes made to the student's details. The format for this command is as show
 
 ### Adding student's attendance : `attendance`
 
-Increases student's attendance by 1. You can enter this command after each tutorial for students who attended that
-particular tutorial. At the end of the semester, you can have an overview of all the students' attendance for grading
+This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's attendance by 1. 
+At the end of the semester, you can have an overview of all the students' attendance for grading
 purposes (participation marks).
 
 Format: `attendance INDEX`
 
-* Increment attendance to the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2, 3, ….
-
 Example:
-
 * `attendance 1`
   * Before
     <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
@@ -242,15 +237,11 @@ Example:
 
 ### Adding help tag: `helpstu`
 
-Adds a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
+This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
  needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
  who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
-
-* Adds a help tag to the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2. 3, ….
 
 Example:
 
@@ -260,14 +251,10 @@ Example:
 
 ### Removing help tag: `unhelpstu`
 
-Removes help tag from an existing student. You can enter this command when you find a specific student that you thought
+This feature allows you to remove help tag from an existing student. You can enter this command when you find a specific student that you thought
  needed help is doing well or does not need special attention anymore.
 
 Format: `unhelpstu INDEX`
-
-* Removes a help tag from the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
-* The index must be a positive integer 1, 2. 3, ….
 
 Example:
 
@@ -277,7 +264,7 @@ Example:
 
 ### Deleting a student: `deletestu`
 
-Removes a specific student.
+This feature allows you to remove a specific student.
 If a student has left the module or swapped tutorial group, you can delete him from the list.
 
 Format: `deletestu INDEX`
