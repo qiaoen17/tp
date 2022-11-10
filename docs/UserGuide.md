@@ -3,6 +3,8 @@ layout: page
 title: User Guide
 ---
 
+<a id="top"></a>
+
 SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
 questions asked by students. SETA is optimized for use via a Command Line Interface (CLI) while still having the
 benefits of a Graphical User Interface (GUI). If you can type fast, SETA enables you to track your students, manage your
@@ -211,17 +213,13 @@ or changes made to the student's details. The format for this command is as show
 
 ### Adding student's attendance : `attendance`
 
-Increases student's attendance by 1. You can enter this command after each tutorial for students who attended that
-particular tutorial. At the end of the semester, you can have an overview of all the students' attendance for grading
+This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's attendance by 1. 
+At the end of the semester, you can have an overview of all the students' attendance for grading
 purposes (participation marks).
 
 Format: `attendance INDEX`
 
-* Increment attendance to the student at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed student list.
-
 Example:
-
 * `attendance 1`
     * Before
       <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
@@ -260,14 +258,11 @@ Example:
     
 ### Adding help tag: `helpstu`
 
-Adds a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
-needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
-who needs more of your attention during tutorials.
+This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
+ needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
+ who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
-
-* Adds a help tag to the student at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -277,28 +272,23 @@ Example:
 
 ### Removing help tag: `unhelpstu`
 
-Removes help tag from an existing student. You can enter this command when you find a specific student that you thought
+This feature allows you to remove help tag from an existing student. You can enter this command when you find a specific student that you thought
 needed help is doing well or does not need special attention anymore.
 
 Format: `unhelpstu INDEX`
 
-* Removes a help tag from the student at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed student list.
-
 Example:
 
 * `unhelpstu 1`
+
 <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
 
-Removes a specific student.
+This feature allows you to remove a specific student.
 If a student has left the module or swapped tutorial group, you can delete him from the list.
 
 Format: `deletestu INDEX`
-
-* Deletes the student at the specified `INDEX`.
-* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -366,6 +356,9 @@ Format: `markq INDEX`
 Example:
 
 * `markq 1` marks the first question in the question list as important
+
+  <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
+
 
 ### Unmarking a question : `unmarkq`
 
@@ -587,3 +580,5 @@ This command summary gives you an overview of all the commands available in SETA
 | **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
+
+<a href="#top">Back to top</a>
