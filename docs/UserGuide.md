@@ -3,6 +3,13 @@ layout: page
 title: User Guide
 ---
 
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
+
 SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
 questions asked by students. SETA is optimized for use via a Command Line Interface (CLI) while still having the
 benefits of a Graphical User Interface (GUI). If you can type fast, SETA enables you to track your students, manage your
