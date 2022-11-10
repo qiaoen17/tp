@@ -443,12 +443,12 @@ Example:
 
 ### Unmarking a tutorial: `unmarktut`
 
-This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
+This feature allows you to unmark the tutorial as incomplete. If a tutorial was mistakenly marked as done, 
 you can undo it using this feature.
 
 Format: `unmarktut INDEX`
 
-* Marks the tutorial at the specified `INDEX`.
+* Unmarks the tutorial at the specified `INDEX`.
 
 Example:
 
