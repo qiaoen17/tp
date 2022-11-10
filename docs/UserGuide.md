@@ -19,10 +19,11 @@ needs as a CS2103T TA.
 The following table will tell you the purpose of the icons used in this User Guide.
 
 
-| Icon                 | Purpose                             |
-|----------------------|-------------------------------------|
-| :information_source: | Additional useful explanation given |
-| :exclamation:        | Important word of caution           |
+| Icon                 | Purpose                                             |
+|----------------------|-----------------------------------------------------|
+| :x:                  | Contains information on the constraints of commands |
+| :information_source: | Additional useful explanation given                 |
+| :exclamation:        | Important word of caution                           |
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -151,7 +152,7 @@ and email.
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 
 * Name constraints
     * Name should only contain alphanumeric characters and spaces, and it should not be blank.
@@ -187,7 +188,7 @@ or changes made to the student's details.
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 
 * Name constraints
     * Name should only contain alphanumeric characters and spaces, and it should not be blank.
@@ -244,7 +245,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 
 <div markdown="block" class="alert alert-success">
 
-**:information_source: Command Constraints**<br>
+**:x: Command Constraints**<br>
 * The `MESSAGE_COUNT` must be a positive integer 1, 2, 3, ...
 
 </div>
