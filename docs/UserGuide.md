@@ -521,7 +521,7 @@ application!
 </p>
 </details>
 
-<details><summary>Students</summary>
+<details><summary style="color: blue">Students</summary>
 <p>
 
    <strong>Q</strong>: How do I edit the attendance for my student?<br>
@@ -537,7 +537,7 @@ application!
 </p>
 </details>
 
-<details><summary>Questions</summary>
+<details><summary style="color: blue">Questions</summary>
 <p>
 
    <strong>Q</strong>: Is there a way to delete all the questions using one command? <br>
@@ -546,7 +546,7 @@ application!
 </p>
 </details>
 
-<details><summary>Tutorials</summary>
+<details><summary style="color: blue">Tutorials</summary>
 <p>
 
    <strong>Q</strong>: Can I type the date and time in a different format? <br>
