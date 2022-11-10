@@ -228,7 +228,7 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-The `addresponse` feature allows you to edit your students' response count. This helps you to track your 
+This feature allows you to edit your students' response count. This helps you to track your 
 student's participation in the tutorial through the recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
@@ -433,7 +433,7 @@ Example:
 
 ### Marking a tutorial: `marktut`
 
-The `marktut` feature allows you to mark a tutorial as complete.
+This feature allows you to mark a tutorial as complete.
 
 Format: `marktut INDEX`
 
@@ -449,7 +449,7 @@ Example:
 
 ### Unmarking a tutorial: `unmarktut`
 
-The `unmarktut` feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
+This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
 you can undo it using this feature.
 
 Format: `unmarktut INDEX`
