@@ -52,7 +52,7 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
         * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
         * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-        * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
+        * Unmarking a tutorial: [`unmarktut`](#marking-a-tutorial-as-undone-unmarktut)
     * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
     * **Exiting the program**: [`exit`](#exiting-seta--exit)
  * **[FAQ](#faq)**
@@ -442,14 +442,14 @@ Example:
 <img src="images/ug-screenshots/marktut.png" alt="before" width="1100">
 
 
-### Unmarking a tutorial: `unmarktut`
+### Marking a tutorial as undone: `unmarktut`
 
 This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
 you can undo it using this feature.
 
 Format: `unmarktut INDEX`
 
-* Unmarks the tutorial at the specified `INDEX`.
+* Unmark the tutorial at the specified `INDEX`.
 
 Example:
 
@@ -535,10 +535,12 @@ application!
 
    <strong>Q: How do I edit the attendance for my student?</strong><br>
    <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
-    <ul>
-    <li>Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.) </li>
-    <li>Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.) </li>
-    </ul>
+
+* Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number.   
+(E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
+* Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1.   
+(E.g. `attendance 2` increase attendance of student 2 by 1.) 
+    
 
 <h3><strong>Questions</strong></h3>
 
