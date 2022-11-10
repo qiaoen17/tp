@@ -505,7 +505,7 @@ the data of your previous SETA home folder.
 
    <br><br>
    
-   <strong>Q</strong>: I cannot see the sample data, what do I do?  
+   <strong>Q</strong>: I cannot see the sample data, what do I do?<br>
    <strong>A</strong>: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to 
 see the sample data now.
 
