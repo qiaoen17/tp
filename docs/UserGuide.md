@@ -13,13 +13,18 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
-The following table will inform you what kind of information comes with each of these icons.
+--------------------------------------------------------------------------------------------------------------------
+
+## Icons
+The following table will tell you the purpose of the icons used in this User Guide.
+
 
 | Icon                 | Purpose                             |
 |----------------------|-------------------------------------|
 | :information_source: | Additional useful explanation given |
 | :exclamation:        | Important word of caution           |
 
+--------------------------------------------------------------------------------------------------------------------
 
 <div markdown="block" class="alert alert-info">
 
@@ -34,41 +39,41 @@ tutorials.
 
 </div>
 
-* Table of Contents
-    * **[Quick Start](#quick-start)**
-    * **[Features](#features)**
-        * **[Students](#students)**
-            * Adding a student: [`addstu`](#adding-a-student--addstu)
-            * Editing a student: [`editstu`](#editing-a-student-editstu)
-            * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
-            * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
-            * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
-            * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
-            * Finding a student: [`findstu`](#finding-a-student-findstu)
-            * Listing all students: [`liststu`](#listing-all-students-liststu)
-        * **[Questions](#questions)**
-            * Adding a question: [`addq`](#adding-a-question--addq)
-            * Marking a question: [`markq`](#marking-a-question--markq)
-            * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
-            * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
-        * **[Tutorials](#tutorials)**
-            * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
-            * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
-            * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-            * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
-        * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
-        * **Exiting the program**: [`exit`](#exiting-seta--exit)
-    * **[FAQ](#faq)**
-    * **[Command Summary](#command-summary)**
+
+## Table of Contents
+* **[Quick Start](#quick-start)**
+* **[Features](#features)**
+    * **[Students](#students)**
+        * Adding a student: [`addstu`](#adding-a-student--addstu)
+        * Editing a student: [`editstu`](#editing-a-student-editstu)
+        * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
+        * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
+        * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
+        * Removing help tag from a student: [`unhelpstu`](#removing-help-tag-unhelpstu)
+        * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
+        * Finding a student: [`findstu`](#finding-a-student-findstu)
+        * Listing all students: [`liststu`](#listing-all-students-liststu)
+    * **[Questions](#questions)**
+        * Adding a question: [`addq`](#adding-a-question--addq)
+        * Marking a question: [`markq`](#marking-a-question--markq)
+        * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
+        * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
+    * **[Tutorials](#tutorials)**
+        * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
+        * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
+        * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
+        * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
+    * **Clear**: [`clear`](#clearing-all-entries-clear)
+    * **Exiting the program**: [`exit`](#exiting-the-program--exit)
+* **[FAQ](#faq)**
+* **[Command Summary](#command-summary)**
 
 --------------------------------------------------------------------------------------------------------------------
 
 ## Quick Start
 
-1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
-   above installed in your Computer. If you have issues doing so, refer to the troubleshooting
-   guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
-   .
+1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or above installed in your Computer. If you have issues doing so, refer to the troubleshooting
+   guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
 
 2. Download the latest `SETA.jar` from [here](https://github.com/AY2223S1-CS2103T-T08-4/tp/releases).
 
@@ -136,11 +141,11 @@ You can see your student's details, such as their names, telegram handles, and e
 contacting any students if necessary. You can also track each student's attendance and responses (the number of messages
 he or she has sent on Zoom) to record their participation.
 
+
 ### Adding a student : `addstu`
 
-Adds a student to the student list.
-At the start of the semester, after gathering the student details, you can add each student into SETA to start
-tracking their participation.
+The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
+and email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
@@ -169,21 +174,16 @@ tracking their participation.
 
 ### Editing a student: `editstu`
 
-The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend
-any mistake
-or changes made to the student's details. The format for this command is as shown below.
+The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
+or changes made to the student's details.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
 
 * The student at the specified `INDEX` will be edited. (E.g. If you input '3' as the `INDEX`, student 3 will be edited)
 * At least one of the fields (E.g. [n/NAME] or [e/EMAIL]) must be provided.
-
 * Existing fields will be updated to the input values.
 * Editing a student with the same details as the student's original details will be accepted.
-  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
-  edit.)
-* Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '
-  0000' and '3' instead of '003').
+  (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an edit.)
 
 <div markdown="block" class="alert alert-success">
 
@@ -199,6 +199,7 @@ or changes made to the student's details. The format for this command is as show
     * Email must end with a top-level domain (E.g. `.com`, `.u.nus.edu`)
 * Attendance constraints
     * Attendance number should be a positive integer (E.g. 1, 2,...)
+    * Input attendance value without any extra '0's before and after the intended attendance value. (E.g. '0' instead of '0000' and '3' instead of '003').
 
 </div>
 
@@ -526,19 +527,14 @@ application!
 </details>
 
 <details><summary><strong>Students</strong></summary>
-<p>
 
    <strong>Q</strong>: How do I edit the attendance for my student?<br>
    <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
+    <ul>
+    <li>Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.) </li>
+    <li>Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of student 2 by 1.) </li>
+    </ul>
 
-* Using the `editstu` feature
-    * `editstu` feature allows you to edit the attendance by any number. (E.g. `editstu 3 a/5` changes the attendance of
-      student 3 to 5.)
-* Using the `attendance` feature
-    * `attendance` feature allows you to increase the attendance by 1. (E.g. `attendance 2` increase attendance of
-      student 2 by 1.)
-
-</p>
 </details>
 
 <details><summary><strong>Questions</strong></summary>
@@ -581,4 +577,3 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
 
-<a href="#top">Go to top</a>
