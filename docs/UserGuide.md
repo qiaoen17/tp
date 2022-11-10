@@ -29,30 +29,31 @@ The following table will tell you the purpose of the icons used in this User Gui
 --------------------------------------------------------------------------------------------------------------------
 
 
-* Table of Contents
-    * **[Quick Start](#quick-start)**
-    * **[Features](#features)**
-        * **[Students](#students)**
-            * Adding a student: [`addstu`](#adding-a-student--addstu)
-            * Editing a student: [`editstu`](#editing-a-student-editstu)
-            * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
-            * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
-            * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
-            * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
-            * Finding a student: [`findstu`](#finding-a-student-findstu)
-            * Listing all students: [`liststu`](#listing-all-students-liststu)
-        * **[Questions](#questions)**
-            * Adding a question: [`addq`](#adding-a-question--addq)
-            * Marking a question: [`markq`](#marking-a-question--markq)
-            * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
-            * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
-        * **[Tutorials](#tutorials)**
-            * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
-            * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
-            * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
-            * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
-        * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
-        * **Exiting the program**: [`exit`](#exiting-seta--exit)
+## Table of Contents
+
+* **[Quick Start](#quick-start)**
+* **[Features](#features)**
+    * **[Students](#students)**
+        * Adding a student: [`addstu`](#adding-a-student--addstu)
+        * Editing a student: [`editstu`](#editing-a-student-editstu)
+        * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
+        * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
+        * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
+        * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
+        * Finding a student: [`findstu`](#finding-a-student-findstu)
+        * Listing all students: [`liststu`](#listing-all-students-liststu)
+    * **[Questions](#questions)**
+        * Adding a question: [`addq`](#adding-a-question--addq)
+        * Marking a question: [`markq`](#marking-a-question--markq)
+        * Unmarking a question: [`unmarkq`](#unmarking-a-question--unmarkq)
+        * Deleting a question: [`deleteq`](#deleting-a-question--deleteq)
+    * **[Tutorials](#tutorials)**
+        * Adding a tutorial: [`addtut`](#adding-a-tutorial--addtut)
+        * Deleting a tutorial: [`deletetut`](#deleting-a-tutorial--deletetut)
+        * Marking a tutorial: [`marktut`](#marking-a-tutorial-marktut)
+        * Unmarking a tutorial: [`unmarktut`](#unmarking-a-tutorial-unmarktut)
+    * **Clearing SETA**: [`clear`](#clearing-data-in-seta--clear)
+    * **Exiting the program**: [`exit`](#exiting-seta--exit)
     * **[FAQ](#faq)**
     * **[Command Summary](#command-summary)**
 
