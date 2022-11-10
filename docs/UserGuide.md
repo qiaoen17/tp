@@ -18,7 +18,7 @@ needs as a CS2103T TA.
 --------------------------------------------------------------------------------------------------------------------
 
 ## Icons
-The following table will tell you the purpose of the icons used in this User Guide.
+The following table tells you the purpose of the icons used in this User Guide.
 
 
 | Icon                 | Purpose                                             |
