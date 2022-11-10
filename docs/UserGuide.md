@@ -59,8 +59,7 @@ tutorials.
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or
-   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here]
-   (https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
+   above installed in your Computer. If you have issues doing so, refer to the troubleshooting guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB).
 
 2. Download the latest `SETA.jar` from [here](https://github.com/AY2223S1-CS2103T-T08-4/tp/releases).
 
@@ -122,6 +121,7 @@ You can see your student's details, such as their names, telegram handles, and e
 contacting any students if necessary. You can also track each student's attendance and responses (the number of messages
 he or she has sent on Zoom) to record their participation.
 
+
 ### Adding a student : `addstu`
 
 The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
@@ -156,7 +156,7 @@ and email, and the format is as shown below.
 ### Editing a student: `editstu`
 
 The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
-or changes made to the student's details. The format for this command is as shown below.
+or changes made to the student's details.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
 
@@ -458,11 +458,12 @@ You can find answers to frequently asked questions here.
 <details><summary>General</summary>
 <p>
 
-**Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains
+**Q** : How do I transfer my data to another Computer?<br>
+**A** : Install the app in the other computer and overwrite the empty data file it creates with the file that contains
 the data of your previous SETA home folder.
 
 **Q**: What does the cross button at the top right hand of the application do?<br>
+
 **A**: You can simply click on that button to exit the application!
 
 **Q**: What does the question mark at the top left hand of the application do?<br>
