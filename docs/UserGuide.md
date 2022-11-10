@@ -463,7 +463,6 @@ You can find answers to frequently asked questions here.
 the data of your previous SETA home folder.
 
 **Q**: What does the cross button at the top right hand of the application do?<br>
-
 **A**: You can simply click on that button to exit the application!
 
 **Q**: What does the question mark at the top left hand of the application do?<br>
@@ -487,6 +486,8 @@ the data of your previous SETA home folder.
 <details><summary>Questions</summary>
 <p>
 
+**Q**: How do I edit my question if I make a mistake?<br>
+**A**: Unfortunately, we have not implemented this feature to allow editing of questions. However, do keep a lookout for future updates where we will implement this!
 
 </p>
 </details>
