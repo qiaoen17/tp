@@ -1,0 +1,9 @@
+diff a/docs/UserGuide.md b/docs/UserGuide.md	(rejected hunks)
+@@ -526,6 +526,7 @@
+ </p>
+ </details>
+ 
++* **[Quick Start](#quick-start)**
+ 
+ <details><summary style="color: #7b97cb"><strong>Students</strong></summary>
+ <p>
