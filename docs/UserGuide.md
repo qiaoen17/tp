@@ -101,7 +101,7 @@ SETA contains features that allow you to manage 3 things:
 2. [Questions](#questions)
 3. [Tutorials](#tutorials)
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format:**<br>
 
@@ -495,7 +495,7 @@ If your changes to the data file makes its format invalid, SETA will discard all
 
 You can find answers to frequently asked questions here.
 
-<details><summary>General</summary>
+<details><summary color="blue">General</summary>
 <p>
 
    <strong>Q</strong>: How do I transfer my data to another Computer?<br>
