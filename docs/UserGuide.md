@@ -206,8 +206,8 @@ purposes (participation marks).
 
 Format: `attendance INDEX`
 
-* Increment attendance to the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
+* Increment attendance to the student at the specified `INDEX`.
+* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -226,10 +226,10 @@ recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
-* Edits response count of the student at the specified INDEX.
+* Edits response count of the student at the specified `INDEX`.
     * If `addresponse 1 m/7` is keyed in after `addresponse 1 m/2`, the response count for the first
       student in the student list will be 7 instead of 2.
-* `INDEX` refers to the index number shown in the displayed student list.
+* The `INDEX` refers to the index number shown in the displayed student list.
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
     `response: 000000000`
 
@@ -251,13 +251,13 @@ Example:
 ### Adding help tag: `helpstu`
 
 Adds a help tag to an existing student. When you notice that a specific student has not been attending tutorials or
- needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
- who needs more of your attention during tutorials.
+needs help in general, you can enter this command to indicate that the student needs help. You will then have a rough idea
+who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
 
-* Adds a help tag to the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
+* Adds a help tag to the student at the specified `INDEX`.
+* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -268,12 +268,12 @@ Example:
 ### Removing help tag: `unhelpstu`
 
 Removes help tag from an existing student. You can enter this command when you find a specific student that you thought
- needed help is doing well or does not need special attention anymore.
+needed help is doing well or does not need special attention anymore.
 
 Format: `unhelpstu INDEX`
 
-* Removes a help tag from the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
+* Removes a help tag from the student at the specified `INDEX`.
+* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -290,8 +290,8 @@ If a student has left the module or swapped tutorial group, you can delete him f
 
 Format: `deletestu INDEX`
 
-* Deletes the student at the specified INDEX.
-* The index refers to the index number shown in the displayed student list.
+* Deletes the student at the specified `INDEX`.
+* The `INDEX` refers to the index number shown in the displayed student list.
 
 Example:
 
@@ -355,8 +355,8 @@ attention compared to the other questions.
 
 Format: `markq INDEX`
 
-* Marks the question at the specified INDEX as important.
-* The index refers to the index number shown in the displayed question list.
+* Marks the question at the specified `INDEX` as important.
+* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -368,8 +368,8 @@ Allows you to mark a question as unimportant if the question was previously or m
 
 Format: `unmarkq INDEX`
 
-* Marks the question at the specified INDEX as unimportant.
-* The index refers to the index number shown in the displayed question list.
+* Marks the question at the specified `INDEX` as unimportant.
+* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -382,7 +382,7 @@ Once a question has been addressed, you can delete it from the list.
 
 Format: `deleteq INDEX`
 
-* The index refers to the index number shown in the displayed question list.
+* The `INDEX` refers to the index number shown in the displayed question list.
 
 Example:
 
@@ -412,8 +412,8 @@ Deletes a tutorial in the tutorial list.
 
 Format: `deletetut INDEX`
 
-* Deletes the tutorial at the specified INDEX.
-* The index refers to the index number shown in the displayed tutorial list.
+* Deletes the tutorial at the specified `INDEX`.
+* The `INDEX` refers to the index number shown in the displayed tutorial list.
 
 Example:
 
@@ -426,7 +426,7 @@ The `marktut` feature allows you to mark a tutorial as complete.
 Format: `marktut INDEX`
 
 * Marks the tutorial at the specified `INDEX`.
-* The index refers to the index number shown in the displayed tutorial list.
+* The `INDEX` refers to the index number shown in the displayed tutorial list.
 
 Example:
 
@@ -442,7 +442,7 @@ you can undo it using this feature.
 Format: `unmarktut INDEX`
 
 * Marks the tutorial at the specified `INDEX`.
-* The index refers to the index number shown in the displayed tutorial list.
+* The `INDEX` refers to the index number shown in the displayed tutorial list.
 
 Example:
 
