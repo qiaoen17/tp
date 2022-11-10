@@ -11,8 +11,12 @@ tutorials and note down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your
 needs as a CS2103T TA.
 
+--------------------------------------------------------------------------------------------------------------------
+
 ## Icons
 The following table will tell you the purpose of the icons used in this User Guide.
+
+--------------------------------------------------------------------------------------------------------------------
 
 <div markdown="block" class="alert alert-info">
 
