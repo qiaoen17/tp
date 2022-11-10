@@ -448,7 +448,7 @@ you can undo it using this feature.
 
 Format: `unmarktut INDEX`
 
-* Marks the tutorial at the specified `INDEX`.
+* Unmarks the tutorial at the specified `INDEX`.
 
 Example:
 
