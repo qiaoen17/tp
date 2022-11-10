@@ -286,10 +286,7 @@ Format: `unhelpstu INDEX`
 Example:
 
 * `unhelpstu 1`
-* Before
-  <img src="images/ug-screenshots/unhelpstu_before.png" alt="unhelpstu 1" width="1100">
-* After
-  <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
+<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
 
 ### Deleting a student: `deletestu`
 
@@ -468,6 +465,8 @@ Clears the data in SETA. Use this to clear the sample data given at the beginnin
 want to start adding students, questions and tutorials from scratch again.
 
 Format: `clear `
+
+<img src="img/ug-screenshots/clear.png" width="1100">
 
 ### Exiting SETA : `exit`
 
