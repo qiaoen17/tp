@@ -413,6 +413,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
 **:x: Command Constraints**<br>
 
+* The group and content should only contain alphanumeric characters and spaces, and it should not be blank.
 * The format of the date must be in the YYYY-MM-DD.
 * The format of the time must be in 24h format HHmm.
 
