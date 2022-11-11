@@ -403,12 +403,16 @@ see the group number, content, date and time for your tutorials. These correspon
 
 ### Adding a tutorial : `addtut`
 
-Adds a tutorial to the tutorial list.
+This feature allows you to add a tutorial to SETA. To add a tutorial, you must include the group number, content, date
+and time of the tutorial.
+
 
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
+**:x: Command Constraints**<br>
 * The format of the date must be in the YYYY-MM-DD.
 * The format of the time must be in 24h format HHmm.
+
 
 Example:
 
@@ -419,7 +423,7 @@ Example:
 
 ### Deleting a tutorial : `deletetut`
 
-Deletes a tutorial in the tutorial list.
+This feature allows you to delete a tutorial. 
 
 Format: `deletetut INDEX`
 
