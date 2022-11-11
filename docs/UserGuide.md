@@ -430,6 +430,7 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
+<div style="page-break-after: always;"></div>
 
 ### Marking a tutorial as undone: `unmarktut`
 
@@ -444,7 +445,6 @@ Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
 <img src="images/ug-screenshots/unmarktut.png" alt="before" width="800">
-<div style="page-break-after: always;"></div>
 
 ### Clearing data in SETA : `clear`
 
