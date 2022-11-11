@@ -1,14 +1,18 @@
 ---
-layout: page title: User Guide
+layout: page
+title: User Guide
 ---
 
-<a id="top"></a>
-
-SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
-questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli)
-while still having the benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type
-fast, SETA enables you to track your students, manage your tutorials and note down questions more effectively than
-traditional GUI apps.
+SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
+track 
+students’ and 
+tutorials’ details,
+and
+questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
+benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
+students, 
+manage your
+tutorials and note-down questions more effectively than traditional GUI apps.
 
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your needs
 as a CS2103T TA.
@@ -25,7 +29,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :information_source: | Additional useful explanation given                 |
 | :exclamation:        | Important word of caution                           |
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
@@ -56,12 +60,12 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Quick Start
 
 1. Ensure you have [Java 11](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html) or above
-   installed in your Computer. If you have issues doing so, refer to the troubleshooting
+   installed on your Computer. If you have issues doing so, refer to the troubleshooting
    guide [here](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-0DB9580B-1ACA-4C13-8A83-9780BEDF30BB)
    .
 
@@ -88,7 +92,7 @@ Some example commands you can try:
 
 You can refer to the [Features](#features) below for details of each command.
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Features
 
@@ -103,7 +107,7 @@ SETA contains features that allow you to manage 3 things:
 **:information_source: Notes about the command format:**<br>
 
 * Words in `UPPER_CASE` are the parameters to be supplied by you.<br>
-  e.g. in `addstu n/NAME`, `NAME` is a parameter which can be used as `addstu n/John Lim`.
+  e.g. in `addstu n/NAME`, `NAME` is a parameter that can be used as `addstu n/John Lim`.
 
 * Items in square brackets are optional.<br>
   e.g. `n/NAME [h/TELEGRAM_HANDLE]` can be used as `n/John Lim h/@johnlim` or as `n/John Lim`.
@@ -119,14 +123,15 @@ SETA contains features that allow you to manage 3 things:
   e.g. if the command specifies `liststu 123`, it will be interpreted as `liststu`.
 
 * `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
-  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than number of questions in question
+  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the question
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
 
 </div>
+<div style="page-break-after: always;"></div>
 
-### Students
+## Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
 student's details, such as their names, telegram handles, and email. The latter two aid you in contacting any students
@@ -140,7 +145,7 @@ email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -158,10 +163,12 @@ email.
 </div>
 
 **Example**:
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
-
-<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="1100">
+<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
+<div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
 
@@ -177,7 +184,7 @@ mistake or changes made to the student's details.
   (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
   edit.)
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -197,17 +204,19 @@ mistake or changes made to the student's details.
 </div>
 
 **Examples**:
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
-  respectively.<br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">\
-      <br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
+  respectively.
 
+    * **Before**
+      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">\
+      <br>
+    * **After**
+      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
+<div style="page-break-after: always;"></div>
+    
 ### Adding student's attendance : `attendance`
 
 This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's
@@ -219,15 +228,8 @@ Format: `attendance INDEX`
 Example:
 
 * `attendance 1`
-  <br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
-      <br><br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
-
+      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="800">
+    
 ### Adding student's response: `addresponse`
 
 This feature allows you to edit your students' response count. This helps you to track your student's participation in
@@ -241,7 +243,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
   `response: 000000000`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -252,14 +254,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 Example:
 
 * `addresponse 1 m/7`
-  <br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/addresponse_before.png" alt="addresponse" width="1100">
-      <br><br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1100">
+      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="800">
 
 ### Adding help tag: `helpstu`
 
@@ -270,10 +265,10 @@ will then have a rough idea who needs more of your attention during tutorials.
 Format: `helpstu INDEX`
 
 Example:
-
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 * `helpstu 1`
-
-<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="1100">
+<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
 
 ### Removing help tag: `unhelpstu`
 
@@ -285,8 +280,7 @@ Format: `unhelpstu INDEX`
 Example:
 
 * `unhelpstu 1`
-
-<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
+<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="800">
 
 ### Deleting a student: `deletestu`
 
@@ -298,14 +292,7 @@ Format: `deletestu INDEX`
 Example:
 
 * `deletestu 2`
-  <br><br>
-* Before
-  <br><br>
-  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1100">
-  <br><br>
-* After
-  <br><br>
-  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
+  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="800">
 
 ### Finding a student: `findstu`
 
@@ -321,6 +308,7 @@ Examples:
 
 * `findstu bob`
 * `findstu john mary`
+<div style="page-break-after: always;"></div>
 
 ### Listing all students: `liststu`
 
@@ -333,7 +321,7 @@ Example:
 
 * `liststu`
 
-### Questions
+## Questions
 
 The features under the question category allows you to keep track of questions asked by students. These questions are
 added when you do not have enough time to answer them. Furthermore, if you find a question that requires urgent
@@ -362,9 +350,7 @@ Format: `markq INDEX`
 Example:
 
 * `markq 1` marks the first question in the question list as important
-  <br><br>
-
-  <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
+  <img src="images/ug-screenshots/markq.png" alt="markq" width="800">
 
 ### Marking a question as unimportant : `unmarkq`
 
@@ -391,7 +377,7 @@ Example:
 
 * `deleteq 1` deletes the first question from the question list
 
-### Tutorials
+## Tutorials
 
 The features under the tutorial category allow you to keep track of and manage your tutorials and consultations. You can
 see the group number, content, date and time for your tutorials. These correspond to the `GROUP_NUMBER`,
@@ -399,23 +385,30 @@ see the group number, content, date and time for your tutorials. These correspon
 
 ### Adding a tutorial : `addtut`
 
-Adds a tutorial to the tutorial list.
+This feature allows you to add a tutorial to SETA. To add a tutorial, you must include its group number, content, date and time.
 
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
-* The format of the date must be in the YYYY-MM-DD.
-* The format of the time must be in 24h format HHmm.
+<div markdown="block" class="alert alert-warning">
+
+**:x: Command Constraints**<br>
+
+* Date constraints
+    * Date must be in the form, YYYY-MM-DD.
+
+* Time constraints
+    * Time must be in the 24hr format HHmm. (E.g. 1200 represents 12:00pm, 1300 represents 1.00pm)
+    
+</div>
 
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
-  <br><br>
-
-  <img src="images/ug-screenshots/addtut.png" width="1100">
+  <img src="images/ug-screenshots/addtut.png" width="800">
 
 ### Deleting a tutorial : `deletetut`
 
-Deletes a tutorial in the tutorial list.
+This feature allows you to delete a tutorial from SETA.
 
 Format: `deletetut INDEX`
 
@@ -424,8 +417,6 @@ Format: `deletetut INDEX`
 Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
-
- <img src="images/ug-screenshots/deletetut.png" width="1100">
 
 ### Marking a tutorial: `marktut`
 
@@ -438,8 +429,8 @@ Format: `marktut INDEX`
 Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
-
-<img src="images/ug-screenshots/marktut.png" alt="before" width="1100">
+<img src="images/ug-screenshots/marktut.png" alt="before" width="800">
+<div style="page-break-after: always;"></div>
 
 ### Marking a tutorial as undone: `unmarktut`
 
@@ -453,8 +444,7 @@ Format: `unmarktut INDEX`
 Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
-
-<img src="images/ug-screenshots/unmarktut.png" alt="before" width="1100">
+<img src="images/ug-screenshots/unmarktut.png" alt="before" width="800">
 
 ### Clearing data in SETA : `clear`
 
@@ -469,8 +459,6 @@ This feature allows you to exit SETA.
 
 Format: `exit`
 
-<img src="images/ug-screenshots/exit.png" width="1100">
-
 ### Saving the data
 
 SETA data are saved in the [hard disk](#hard-disk) automatically after any command that changes the data. There is no
@@ -481,12 +469,12 @@ need to save manually.
 SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to
 update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+<div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
 If your changes to the data file makes its format invalid, SETA will discard all data and start with an empty data file at the next run.
 </div>
 
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
@@ -495,7 +483,7 @@ You can find answers to frequently asked questions here.
 <h3><strong>General</strong></h3>
 
 <strong>Q: How do I transfer my data to another Computer?</strong><br>
-<strong>A</strong>: Install the app in the other computer and overwrite the empty data file it creates with the file
+<strong>A</strong>: Install the app on the other computer and overwrite the empty data file it creates with the file
 that contains the data of your previous SETA home folder.
 
    <br>
@@ -506,12 +494,7 @@ able to see the sample data now.
 
    <br>
 
-<strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
-<strong>A</strong>: You can simply click on that button to exit the application!
-
-   <br>
-
-<strong>Q: What does the cross button at the top right hand of the application do?</strong><br>
+<strong>Q: What does the cross button at the top right-hand of the application do?</strong><br>
 <strong>A</strong>: You can simply click on that button to exit the application!
 
    <br>
@@ -523,7 +506,8 @@ troublesome!
 
    <br>
 
-<strong>Q: What does the question mark at the top left hand of the application do?</strong>  
+
+<strong>Q: What does the question mark at the top left-hand of the application do?</strong>  
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
 
@@ -535,7 +519,7 @@ using our application!
 * Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number.   
   (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
 * Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1.   
-  (E.g. `attendance 2` increase attendance of student 2 by 1.)
+  (E.g. `attendance 2` increases attendance of student 2 by 1.)
 
 <h3><strong>Questions</strong></h3>
 
@@ -550,8 +534,7 @@ of `YYYY-MM-DD HHmm`. However, there will be improvements made in the near futur
 and time formats to better serve you. Please look forward to it!
 
 
-
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Command Summary
 
@@ -570,7 +553,7 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Glossary
 
@@ -578,26 +561,28 @@ This glossary provides the definitions of certain terms used in this user guide.
 
 ### Command Line Interface (CLI)
 
-CLI is a programme that allows you to create, modify and delete files using a text-based display. In SETA, all you have
+CLI is a program that allows you to create, modify and delete files using a text-based display. In SETA, all you have
 to do is to type in the command box (red rectangle in the image below) and press enter to track your students and manage
 your questions and tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
+<div style="page-break-after: always;"></div>
 
 ### Graphical User Interface (GUI)
 
-GUI is a kind of display that allows you to perform an action within the application through the graphics in the app.
-For example, clicking on the top right cross icon in SETA allows you to exit SETA.
+GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
+For example, as seen in the image below, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
 
 ![ExitButton](images/ug-screenshots/exit.png)
 
 ### JSON file
 
-A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file
-format and a data interchange format. Its purpose is to use human-readable text to store and transmit data objects.
+A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file format and a data interchange format. 
+Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store 
+information for the student, question and tutorial list.
 
 ### Hard Disk
 
-A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores
-and retrieves digital data. 
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that 
+stores and retrieves digital data. This is found in your device that is running SETA.
 
