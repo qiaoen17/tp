@@ -208,7 +208,8 @@ mistake or changes made to the student's details.
 <div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
-  respectively. <br><\br>
+  respectively.
+
     * **Before**
       <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">\
       <br>
@@ -264,7 +265,8 @@ will then have a rough idea who needs more of your attention during tutorials.
 Format: `helpstu INDEX`
 
 Example:
-
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 * `helpstu 1`
 <img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
 
@@ -306,6 +308,7 @@ Examples:
 
 * `findstu bob`
 * `findstu john mary`
+<div style="page-break-after: always;"></div>
 
 ### Listing all students: `liststu`
 
@@ -318,7 +321,7 @@ Example:
 
 * `liststu`
 
-### Questions
+## Questions
 
 The features under the question category allows you to keep track of questions asked by students. These questions are
 added when you do not have enough time to answer them. Furthermore, if you find a question that requires urgent
@@ -374,7 +377,7 @@ Example:
 
 * `deleteq 1` deletes the first question from the question list
 
-### Tutorials
+## Tutorials
 
 The features under the tutorial category allow you to keep track of and manage your tutorials and consultations. You can
 see the group number, content, date and time for your tutorials. These correspond to the `GROUP_NUMBER`,
