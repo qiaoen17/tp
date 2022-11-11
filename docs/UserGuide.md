@@ -145,7 +145,7 @@ email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -184,7 +184,7 @@ mistake or changes made to the student's details.
   (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
   edit.)
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -243,7 +243,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
   `response: 000000000`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -389,7 +389,7 @@ This feature allows you to add a tutorial to SETA. To add a tutorial, you must i
 
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -469,7 +469,7 @@ need to save manually.
 SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to
 update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+<div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
 If your changes to the data file makes its format invalid, SETA will discard all data and start with an empty data file at the next run.
 </div>
 
@@ -506,7 +506,8 @@ troublesome!
 
    <br>
 
-<strong>Q: What does the question mark at the top left-hand of the application do?</strong>
+
+<strong>Q: What does the question mark at the top left-hand of the application do?</strong>  
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
 
