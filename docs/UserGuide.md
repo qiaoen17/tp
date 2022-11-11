@@ -1,9 +1,7 @@
 ---
-layout: page title: User Guide
+layout: page
+title: User Guide
 ---
-
-<a id="top"></a>
-
 
 SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
 track 
