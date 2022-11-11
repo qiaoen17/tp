@@ -167,7 +167,6 @@ email.
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
-
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
 <div style="page-break-after: always;"></div>
 
@@ -227,7 +226,7 @@ Format: `attendance INDEX`
 
 Example:
 
-* `attendance 1` <br><\br>
+* `attendance 1`
       <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="800">
     
 ### Adding student's response: `addresponse`
@@ -254,7 +253,6 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 Example:
 
 * `addresponse 1 m/7`
-    <br></br>
       <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="800">
 
 ### Adding help tag: `helpstu`
@@ -268,7 +266,6 @@ Format: `helpstu INDEX`
 Example:
 
 * `helpstu 1`
-
 <img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
 
 ### Removing help tag: `unhelpstu`
@@ -281,7 +278,6 @@ Format: `unhelpstu INDEX`
 Example:
 
 * `unhelpstu 1`
-
 <img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="800">
 
 ### Deleting a student: `deletestu`
@@ -351,8 +347,6 @@ Format: `markq INDEX`
 Example:
 
 * `markq 1` marks the first question in the question list as important
-  <br><br>
-
   <img src="images/ug-screenshots/markq.png" alt="markq" width="800">
 
 ### Marking a question as unimportant : `unmarkq`
@@ -398,7 +392,6 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
-  <br><br>
 
   <img src="images/ug-screenshots/addtut.png" width="800">
 
@@ -413,7 +406,6 @@ Format: `deletetut INDEX`
 Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
-
  <img src="images/ug-screenshots/deletetut.png" width="800">
 
 ### Marking a tutorial: `marktut`
@@ -427,7 +419,6 @@ Format: `marktut INDEX`
 Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
-
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
 
 ### Marking a tutorial as undone: `unmarktut`
@@ -442,7 +433,6 @@ Format: `unmarktut INDEX`
 Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
-
 <img src="images/ug-screenshots/unmarktut.png" alt="before" width="800">
 
 ### Clearing data in SETA : `clear`
