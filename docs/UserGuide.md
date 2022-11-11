@@ -523,7 +523,7 @@ troublesome!
 
    <br>
 
-<strong>Q: What does the question mark at the top left hand of the application do?</strong>
+<strong>Q: What does the question mark at the top left hand of the application do?</strong>  
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
 
