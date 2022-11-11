@@ -389,13 +389,21 @@ This feature allows you to add a tutorial to SETA. To add a tutorial, you must i
 
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
-* The format of the date must be in the YYYY-MM-DD.
-* The format of the time must be in 24h format HHmm.
+<div markdown="block" class="alert alert-success">
+
+**:x: Command Constraints**<br>
+
+* Date constraints
+    * Date must be in the form, YYYY-MM-DD.
+
+* Time constraints
+    * Time must be in the 24hr format HHmm. (E.g. 1200 represents 12:00pm, 1300 represents 1.00pm)
+    
+</div>
 
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
-
   <img src="images/ug-screenshots/addtut.png" width="800">
 
 ### Deleting a tutorial : `deletetut`
@@ -409,7 +417,6 @@ Format: `deletetut INDEX`
 Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
- <img src="images/ug-screenshots/deletetut.png" width="800">
 
 ### Marking a tutorial: `marktut`
 
