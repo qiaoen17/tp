@@ -209,7 +209,7 @@ mistake or changes made to the student's details.
 <div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
-  respectively. <br></br>
+  respectively. <br><\br>
     * **Before**
       <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">\
       <br>
@@ -294,14 +294,7 @@ Format: `deletestu INDEX`
 Example:
 
 * `deletestu 2`
-  <br><br>
-* Before
-  <br><br>
   <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="800">
-  <br><br>
-* After
-  <br><br>
-  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="800">
 
 ### Finding a student: `findstu`
 
@@ -464,8 +457,6 @@ Format: `clear `
 This feature allows you to exit SETA.
 
 Format: `exit`
-
-<img src="images/ug-screenshots/exit.png" width="800">
 
 ### Saving the data
 
