@@ -3,14 +3,16 @@ layout: page
 title: User Guide
 ---
 
-SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
-track 
-students’ and 
+SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to
+track
+students’ and
 tutorials’ details,
 and
-questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
-benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
-students, 
+questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli)
+while still having the
+benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to
+track your
+students,
 manage your
 tutorials and note-down questions more effectively than traditional GUI apps.
 
@@ -41,6 +43,7 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
         * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
         * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
+        * Removing help tag to a student: [`unhelpstu`](#removing-help-tag-unhelpstu)
         * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
         * Finding a student: [`findstu`](#finding-a-student-findstu)
         * Listing all students: [`liststu`](#listing-all-students-liststu)
@@ -123,7 +126,8 @@ SETA contains features that allow you to manage 3 things:
   e.g. if the command specifies `liststu 123`, it will be interpreted as `liststu`.
 
 * `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
-  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the question
+  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the
+  question
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
@@ -372,7 +376,6 @@ Example:
 
 ### Marking a question as unimportant : `unmarkq`
 
-
 This feature allows you to indicate on the display that this question is unimportant. It is used when if the question
 was marked as important by mistake.
 
@@ -406,13 +409,12 @@ see the group number, content, date and time for your tutorials. These correspon
 This feature allows you to add a tutorial to SETA. To add a tutorial, you must include the group number, content, date
 and time of the tutorial.
 
-
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
 **:x: Command Constraints**<br>
+
 * The format of the date must be in the YYYY-MM-DD.
 * The format of the time must be in 24h format HHmm.
-
 
 Example:
 
@@ -423,7 +425,7 @@ Example:
 
 ### Deleting a tutorial : `deletetut`
 
-This feature allows you to delete a tutorial. 
+This feature allows you to delete a tutorial.
 
 Format: `deletetut INDEX`
 
@@ -560,18 +562,18 @@ and time formats to better serve you. Please look forward to it!
 
 This command summary gives you an overview of all the commands available in SETA for your easy reference.
 
-| Action         | Format, Examples                           |
-|----------------|--------------------------------------------|
-| **Add**        | `addstu`, `addq`, `addtut`                 |
-| **Attendance** | `attendance`, `addresponse`                |
-| **Delete**     | `deletestu`, `deleteq`, `deletetut`        |
-| **Edit**       | `editstu`                                  |
-| **Find**       | `findstu`                                  |
-| **List**       | `liststu`                                  |
-| **Mark**       | `markq`, `unmarkq`, `marktut`, `unmarktut` |
-| **Tag**        | `helpstu`, `unhelpstu`                     |
-| **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                    |
-| **Exit**       | [`exit`](#exiting-seta--exit)                                   |
+| Action         | Format, Examples                                                                                                                        |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Add**        | [`addtut`](#adding-a-tutorial--addtut), [`addq`](#adding-a-question--addq), [`addtut`](#adding-a-tutorial--addtut)                      |
+| **Attendance** | [`attendance`](#adding-students-attendance--attendance), [`addresponse`](#adding-students-response-addresponse)                         |
+| **Delete**     | [`deletestu`](#deleting-a-student-deletestu), [`deleteq`](#deleting-a-question--deleteq), [`deletetut`](#deleting-a-tutorial--deletetut) |
+| **Edit**       | [`editstu`](#editing-a-student-editstu)                                                                                                 |
+| **Find**       | [`findstu`](#finding-a-student-findstu)                                                                                                 |
+| **List**       | [`liststu`](#listing-all-students-liststu)                                                                                              |
+| **Mark**       | [`markq`](#marking-a-question-as-important--markq), [`unmarkq`](#marking-a-question-as-unimportant--unmarkq), [`marktut`](#marking-a-tutorial-marktut), [`unmarktut`](#marking-a-tutorial-as-undone-unmarktut)                                                                                     |
+| **Tag**        | [`helpstu`](#adding-help-tag-helpstu), [`unhelpstu`](#removing-help-tag-unhelpstu)                                                                                                                  |
+| **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                                                                                |
+| **Exit**       | [`exit`](#exiting-seta--exit)                                                                                                           |
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -589,19 +591,20 @@ your questions and tutorials.
 
 ### Graphical User Interface (GUI)
 
-GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
+GUI is a kind of display that allows you to perform an action within the application through the graphics in the app.
 For example, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
 
 ![ExitButton](images/ug-screenshots/exit.png)
 
 ### JSON file
 
-A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file format and a data interchange format. 
-Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store 
+A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file
+format and a data interchange format.
+Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store
 information for the student, question and tutorial list.
 
 ### Hard Disk
 
-A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that 
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that
 stores and retrieves digital data. This is found in your device that is running SETA.
 
