@@ -168,7 +168,7 @@ email.
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 
-<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="1000">
+<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
 <div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
@@ -211,10 +211,10 @@ mistake or changes made to the student's details.
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
   respectively. <br></br>
     * **Before**
-      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1000">\
+      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">\
       <br>
     * **After**
-      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1000">
+      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
 <div style="page-break-after: always;"></div>
     
 ### Adding student's attendance : `attendance`
@@ -228,7 +228,7 @@ Format: `attendance INDEX`
 Example:
 
 * `attendance 1` <br><\br>
-      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1000">
+      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="800">
     
 ### Adding student's response: `addresponse`
 
@@ -255,7 +255,7 @@ Example:
 
 * `addresponse 1 m/7`
     <br></br>
-      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1000">
+      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="800">
 
 ### Adding help tag: `helpstu`
 
@@ -269,7 +269,7 @@ Example:
 
 * `helpstu 1`
 
-<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="1000">
+<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
 
 ### Removing help tag: `unhelpstu`
 
@@ -282,7 +282,7 @@ Example:
 
 * `unhelpstu 1`
 
-<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1000">
+<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="800">
 
 ### Deleting a student: `deletestu`
 
@@ -297,11 +297,11 @@ Example:
   <br><br>
 * Before
   <br><br>
-  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1000">
+  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="800">
   <br><br>
 * After
   <br><br>
-  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1000">
+  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="800">
 
 ### Finding a student: `findstu`
 
@@ -360,7 +360,7 @@ Example:
 * `markq 1` marks the first question in the question list as important
   <br><br>
 
-  <img src="images/ug-screenshots/markq.png" alt="markq" width="1000">
+  <img src="images/ug-screenshots/markq.png" alt="markq" width="800">
 
 ### Marking a question as unimportant : `unmarkq`
 
@@ -407,7 +407,7 @@ Example:
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
   <br><br>
 
-  <img src="images/ug-screenshots/addtut.png" width="1000">
+  <img src="images/ug-screenshots/addtut.png" width="800">
 
 ### Deleting a tutorial : `deletetut`
 
@@ -421,7 +421,7 @@ Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
 
- <img src="images/ug-screenshots/deletetut.png" width="1000">
+ <img src="images/ug-screenshots/deletetut.png" width="800">
 
 ### Marking a tutorial: `marktut`
 
@@ -435,7 +435,7 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 
-<img src="images/ug-screenshots/marktut.png" alt="before" width="1000">
+<img src="images/ug-screenshots/marktut.png" alt="before" width="800">
 
 ### Marking a tutorial as undone: `unmarktut`
 
@@ -450,7 +450,7 @@ Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
 
-<img src="images/ug-screenshots/unmarktut.png" alt="before" width="1000">
+<img src="images/ug-screenshots/unmarktut.png" alt="before" width="800">
 
 ### Clearing data in SETA : `clear`
 
@@ -465,7 +465,7 @@ This feature allows you to exit SETA.
 
 Format: `exit`
 
-<img src="images/ug-screenshots/exit.png" width="1000">
+<img src="images/ug-screenshots/exit.png" width="800">
 
 ### Saving the data
 
