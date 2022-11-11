@@ -131,7 +131,7 @@ SETA contains features that allow you to manage 3 things:
 </div>
 <div style="page-break-after: always;"></div>
 
-### Students
+## Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
 student's details, such as their names, telegram handles, and email. The latter two aid you in contacting any students
@@ -163,10 +163,12 @@ email.
 </div>
 
 **Example**:
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 
-<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="1100">
+<img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="1000">
 <div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
@@ -203,16 +205,16 @@ mistake or changes made to the student's details.
 </div>
 
 **Examples**:
+* _Refer to the next page for an example._
+<div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
-  respectively.<br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">\
+  respectively. <br></br>
+    * **Before**
+      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1000">\
       <br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
+    * **After**
+      <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1000">
 <div style="page-break-after: always;"></div>
     
 ### Adding student's attendance : `attendance`
@@ -225,15 +227,8 @@ Format: `attendance INDEX`
 
 Example:
 
-* `attendance 1`
-  <br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/attendance_before.png" alt="before" width="1100">
-      <br><br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
+* `attendance 1` <br></br>
+      <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1000">
 <div style="page-break-after: always;"></div>
     
 ### Adding student's response: `addresponse`
@@ -260,14 +255,8 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 Example:
 
 * `addresponse 1 m/7`
-  <br><br>
-    * Before
-      <br><br>
-      <img src="images/ug-screenshots/addresponse_before.png" alt="addresponse" width="1100">
-      <br><br>
-    * After
-      <br><br>
-      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1100">
+    <br></br>
+      <img src="images/ug-screenshots/addresponse.png" alt="addresponse 1 m/7" width="1000">
 
 ### Adding help tag: `helpstu`
 
@@ -281,7 +270,7 @@ Example:
 
 * `helpstu 1`
 
-<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="1100">
+<img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="1000">
 
 ### Removing help tag: `unhelpstu`
 
@@ -294,7 +283,7 @@ Example:
 
 * `unhelpstu 1`
 
-<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1100">
+<img src="images/ug-screenshots/unhelpstu.png" alt="unhelpstu 1" width="1000">
 
 ### Deleting a student: `deletestu`
 
@@ -309,11 +298,11 @@ Example:
   <br><br>
 * Before
   <br><br>
-  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1100">
+  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="1000">
   <br><br>
 * After
   <br><br>
-  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1100">
+  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="1000">
 
 ### Finding a student: `findstu`
 
@@ -372,7 +361,7 @@ Example:
 * `markq 1` marks the first question in the question list as important
   <br><br>
 
-  <img src="images/ug-screenshots/markq.png" alt="markq" width="1100">
+  <img src="images/ug-screenshots/markq.png" alt="markq" width="1000">
 
 ### Marking a question as unimportant : `unmarkq`
 
@@ -419,7 +408,7 @@ Example:
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
   <br><br>
 
-  <img src="images/ug-screenshots/addtut.png" width="1100">
+  <img src="images/ug-screenshots/addtut.png" width="1000">
 
 ### Deleting a tutorial : `deletetut`
 
@@ -433,7 +422,7 @@ Example:
 
 * `deletetut 1`deletes the first tutorial from the tutorial list
 
- <img src="images/ug-screenshots/deletetut.png" width="1100">
+ <img src="images/ug-screenshots/deletetut.png" width="1000">
 
 ### Marking a tutorial: `marktut`
 
@@ -447,7 +436,7 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 
-<img src="images/ug-screenshots/marktut.png" alt="before" width="1100">
+<img src="images/ug-screenshots/marktut.png" alt="before" width="1000">
 
 ### Marking a tutorial as undone: `unmarktut`
 
@@ -462,7 +451,7 @@ Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
 
-<img src="images/ug-screenshots/unmarktut.png" alt="before" width="1100">
+<img src="images/ug-screenshots/unmarktut.png" alt="before" width="1000">
 
 ### Clearing data in SETA : `clear`
 
@@ -477,7 +466,7 @@ This feature allows you to exit SETA.
 
 Format: `exit`
 
-<img src="images/ug-screenshots/exit.png" width="1100">
+<img src="images/ug-screenshots/exit.png" width="1000">
 
 ### Saving the data
 
@@ -494,7 +483,7 @@ If your changes to the data file makes its format invalid, SETA will discard all
 </div>
 
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
@@ -553,8 +542,7 @@ of `YYYY-MM-DD HHmm`. However, there will be improvements made in the near futur
 and time formats to better serve you. Please look forward to it!
 
 
-
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Command Summary
 
@@ -573,7 +561,7 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Glossary
 
