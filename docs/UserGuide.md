@@ -444,6 +444,7 @@ Example:
 
 * `unmarktut 1` marks the first tutorial from the tutorial list as undone.
 <img src="images/ug-screenshots/unmarktut.png" alt="before" width="800">
+<div style="page-break-after: always;"></div>
 
 ### Clearing data in SETA : `clear`
 
@@ -564,11 +565,12 @@ to do is to type in the command box (red rectangle in the image below) and press
 your questions and tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
+<div style="page-break-after: always;"></div>
 
 ### Graphical User Interface (GUI)
 
 GUI is a kind of display that allows you to perform an action within the application through the graphics in the app. 
-For example, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
+For example, as seen in the image below, clicking on the exit button (top right cross icon) in SETA allows you to exit SETA.
 
 ![ExitButton](images/ug-screenshots/exit.png)
 
