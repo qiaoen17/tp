@@ -29,7 +29,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :information_source: | Additional useful explanation given                 |
 | :exclamation:        | Important word of caution                           |
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
@@ -60,7 +60,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Quick Start
 
@@ -92,7 +92,7 @@ Some example commands you can try:
 
 You can refer to the [Features](#features) below for details of each command.
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Features
 
@@ -129,6 +129,7 @@ SETA contains features that allow you to manage 3 things:
 * `INDEX` refers to the index number shown in the respective displayed list.
 
 </div>
+<div style="page-break-after: always;"></div>
 
 ### Students
 
@@ -166,6 +167,7 @@ email.
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="1100">
+<div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
 
@@ -211,7 +213,8 @@ mistake or changes made to the student's details.
     * After
       <br><br>
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="1100">
-
+<div style="page-break-after: always;"></div>
+    
 ### Adding student's attendance : `attendance`
 
 This feature allows you to take attendance of your students after each tutorial. It helps you to increment a student's
@@ -231,7 +234,8 @@ Example:
     * After
       <br><br>
       <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1100">
-
+<div style="page-break-after: always;"></div>
+    
 ### Adding student's response: `addresponse`
 
 This feature allows you to edit your students' response count. This helps you to track your student's participation in
