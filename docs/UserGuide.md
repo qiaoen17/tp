@@ -570,8 +570,8 @@ This command summary gives you an overview of all the commands available in SETA
 | **List**       | `liststu`                                  |
 | **Mark**       | `markq`, `unmarkq`, `marktut`, `unmarktut` |
 | **Tag**        | `helpstu`, `unhelpstu`                     |
-| **Clear**      | `clear`                                    |
-| **Exit**       | `exit`                                     |
+| **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                    |
+| **Exit**       | [`exit`](#exiting-seta--exit)                                   |
 
 --------------------------------------------------------------------------------------------------------------------
 
