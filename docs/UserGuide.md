@@ -227,9 +227,8 @@ Format: `attendance INDEX`
 
 Example:
 
-* `attendance 1` <br></br>
+* `attendance 1` <br><\br>
       <img src="images/ug-screenshots/attendance_after.png" alt="attendance 1" width="1000">
-<div style="page-break-after: always;"></div>
     
 ### Adding student's response: `addresponse`
 
